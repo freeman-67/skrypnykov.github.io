@@ -1,1 +1,1 @@
-# Courses HTML
+# HTML courses
