@@ -29,7 +29,7 @@ label[for="blue"]{
 #green:checked  ~.green,
 #blue:checked  ~.blue{
   	color: white;
-  	border-radius: 6px;
+  	border-radius: 5px;
   	padding: 0 6px 3px;
   	display: inline;
 }
