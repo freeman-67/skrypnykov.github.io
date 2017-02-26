@@ -5,7 +5,6 @@ ul li a {
 a[href$=".ru"]{
 	color: #f70;
 }
-
 a[href*="google.com"]{
 	color: #666;
 }
