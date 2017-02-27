@@ -36,6 +36,7 @@ div.main-menu{
 .top-nav li[class="right"]{
 	margin-right: 40px;
 }
+.top-nav li a.active,
 .top-nav li a:hover {
 	padding: 7px 15px;
 	color: #999;
