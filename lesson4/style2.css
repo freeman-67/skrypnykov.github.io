@@ -1,16 +1,26 @@
 div.main-menu{
 	width: 900px;
 	margin: auto;
-	background-color: #A64DFF;
+	background-color: #A64DF9;
 }
 .top-nav{
-	/*text-align: center;*/
-	margin-left: 30px;
+	text-align: center;
 	padding: 5px;
 }
+
 .top-nav li{
-	display: inline-block;
+	list-style-type: none;
 }
+.top-nav li:not([class="right"]){
+	float: left;
+}
+.top-nav li[class="right"]{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+
 .top-nav li a{
 	font-family: 'Economica';
 	font-weight: 700;
@@ -20,7 +30,12 @@ div.main-menu{
 	color: #fff;
 	padding: 10px 15px;
 }
-.top-nav li a.active,
+.top-nav li:first-child{
+	margin-left: 30px;
+}
+.top-nav li[class="right"]{
+	margin-right: 30px;
+}
 .top-nav li a:hover {
 	padding: 7px 15px;
 	color: #999;
