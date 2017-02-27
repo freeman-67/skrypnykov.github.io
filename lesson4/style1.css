@@ -1,1 +1,28 @@
+div.main-menu{
+	width: 900px;
+	margin: auto;
+	background-color: #A64DFF;
+}
+.top-nav{
+	text-align: center;
+	padding: 10px;
+}
+.top-nav li{
+	display: inline-block;
+}
+.top-nav li a{
+	font-family: 'Economica';
+	font-size: 1.6em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
 
+	padding: 10px 15px;
+}
+.top-nav li a.active,
+.top-nav li a:hover {
+	color: #999;
+	background-color: #F5F5F5;
+	box-shadow: 0 0 9px 0 #C2C2C2;
+}
