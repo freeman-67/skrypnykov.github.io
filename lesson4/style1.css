@@ -11,6 +11,7 @@ div.main-menu{
 	display: inline-block;
 }
 .top-nav li a{
+	box-sizing: border-box;
 	font-family: 'Economica';
 	font-weight: 700;
 	font-size: 28px;
