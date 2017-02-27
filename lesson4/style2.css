@@ -31,10 +31,10 @@ div.main-menu{
 	padding: 10px 15px;
 }
 .top-nav li:first-child{
-	margin-left: 30px;
+	margin-left: 40px;
 }
 .top-nav li[class="right"]{
-	margin-right: 30px;
+	margin-right: 40px;
 }
 .top-nav li a:hover {
 	padding: 7px 15px;
