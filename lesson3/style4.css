@@ -10,8 +10,13 @@ a[href*="google"]{
 }
 a[target="_blank"]:after{
 	content: " \21F1";
+	text-decoration: none;
 	position: absolute;
 	padding-right: 20px;
 	margin-top: 15px;
-	transform: rotate(-270deg);
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg);
 }
