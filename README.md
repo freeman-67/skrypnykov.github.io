@@ -1,5 +1,5 @@
-# HTML courses
-lesson1
-lesson2
-lesson3
-lesson4
+# Kurse HTML
+Lektion1
+Lektion2
+Lektion3
+Lektion4
