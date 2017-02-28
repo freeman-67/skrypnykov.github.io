@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Meine Hausaufgaben: Vortrag 2, Aufgabe 3</title>
+</head>
+<body>
+	<form name="Anmeldung" action="/">
+		<p>Name</p><input type="text" name="name" value="name" />
+		<p>Email</p><input type="email" name="email" value="email" />
+		<p>Sex</p>
+		<input type="radio" name="sex" value="male" /> Male
+   		<input type="radio" name="sex" value="famale" /> Female
+		<p>Current status</p>
+		<input type="checkbox" name="status" value="student" /> Student<br/>
+		<input type="checkbox" name="status" value="employed" /> employed<br/>
+		<input type="checkbox" name="status" value="unemployed" /> Unemployed<br/>
+		<p>Month and Year of birth</p>
+		<select name="month" id="">
+			<option value="january">январь</option>
+			<option value="february">февраль</option>
+			<option value="march">март</option>
+			<option value="april">апрель</option>
+			<option value="may">май</option>
+			<option value="june">июнь</option>
+			<option value="july">июль</option>
+			<option value="august">август</option>
+			<option value="september">сентябрь</option>
+			<option value="october">октябрь</option>
+			<option value="november">ноябрь</option>
+			<option value="december">декабрь</option>
+		</select>
+		<select name="year" id="">
+			<option value="1977">1977</option>
+			<option value="1976">1976</option>
+			<option value="1975">1975</option>
+		</select>
+		<p>Skills and Technologies</p>
+		<select name="skills" id="" size="10" multiple>
+			<optgroup label="Tech skills">
+				<option value="html"> HTML</option>
+				<option value="css"> CSS</option>
+				<option value="javaskript"> Javascript</option>
+				<option value="git"> Git</option>
+			</optgroup>
+			<optgroup label="Soft skills">
+				<option value="management"> Time management</option>
+				<option value="proactivity"> Proactivity</option>
+				<option value="teamwork"> Teamwork</option>
+				<option value="leadership"> Leadership</option>
+			</optgroup>
+		</select>
+		<p>Photo</p>
+		<input type="file">
+		<p>Comments</p>
+		<textarea name="" id="" cols="30" rows="10"></textarea><br/>
+		<input type="submit" value="Save">
+	</form>
+</body>
+</html>
