@@ -50,8 +50,6 @@ ul.numerals li:not([class="none"]){
 .none{
 	position: relative;
 	top: 3px;
-	margin: 0 10px;
-	color: #A64DF9;
 }
 
 li a.active,

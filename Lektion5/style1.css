@@ -34,33 +34,31 @@ ul.main-menu > li > a{
 
 ul.sub-menu{
 	display: none;
-	padding: 5px;
-	height: 23px;
-	
-	position: absolute;
-	top: 32px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-
-	background-color: #f2f2f2;
-	color: #666;
-}
-ul.sub-menu > li > a{
-	color: #c0c0c0;
 }
 
-ul.main-menu li a:focus,
-ul.main-menu li:hover a{
+ul.main-menu li a:focus{
 	outline: 0;
+}
+
+ul.main-menu li:hover a{
 	padding: 5px 10px 6px;
 	color: #999;
 	background-color: #f2f2f2;
 }
 
-ul.main-menu > li:focus .sub-menu,
 ul.main-menu > li:hover .sub-menu {
 	display: inline-block;
+
+	padding: 5px;
+	height: 23px;
+	background-color: #f2f2f2;
+	color: #666;
+
+	position: absolute;
+	top: 32px;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 ul.sub-menu li a:hover {

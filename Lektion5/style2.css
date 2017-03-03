@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body{
+	margin: 0;
+	padding: 0;
+}
+div.container{
+	margin: 40px;
+ 	width: 274px;
+    font-family: 'Roboto', sans-serif;    
+    text-transform: uppercase;
+    text-align: center;
+	border: 3px solid #EE822A;
+ 	border-radius: 5px;
+    box-shadow: 0 0 10px 5px #CBE2EF;
+}
+div.container h3{
+	margin: 18px 0;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+div.header{
+	padding: 5px 0;
+	background-color: #EE822A;
+	color: white;
+}
+div.header h2{
+	font-weight: 500;
+}
+
+.price{
+	color: #364A5B;
+}
+span.numeral{ 
+	font-size: 4em;
+	font-weight: 700;
+ }
+span.currency,
+span.time{
+	position: relative;	
+	font-weight: 500;
+}
+span.currency{
+	top: -40px;
+	font-size: 1.2em;
+}
+span.time{
+	top: 8px;
+	left: -6px;
+	text-transform: none;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    text-transform: none;
+    padding: 0;
+    color: #898D95;
+    font-size: 0.9em;
+   	width: 90%;
+    margin: auto;
+}
+ul li{
+	margin-bottom: 1px; 
+	padding: 7px 30px;
+}
+ul li:nth-of-type(odd){
+	background: #EDF5FD ;
+}
+ul li:nth-of-type(even){
+	background: #F5F5F6;
+}
+ul li::before{
+    content: url("images/marker.png");
+    padding-right: 15px;
+}
+
+.container input{
+	width: 90%;
+	margin: 20px auto 30px;
+	padding: 10px;
+	font-size: 0.9em;
+    font-weight: bold;
+	color: white;
+    background: #EE822A;
+    border: none;
+    border-bottom: 3px solid #B3570D;
+    border-radius: 5px;
+    outline: 0;
+}
+.container input:hover, .container input:focus{ 
+	border-color: transparent;
+	box-shadow: 1px 1px 9px 0 #C2C2C2;
+}
