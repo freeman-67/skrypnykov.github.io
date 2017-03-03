@@ -13,7 +13,7 @@ div.main-menu{
 	display: inline-block;
 }
 .top-nav li a{
-	font-family: 'Economica';
+	font-family: 'Economica', sans-serif;
 	font-weight: 700;
 	font-size: 1.2em;
 	text-transform: uppercase;
