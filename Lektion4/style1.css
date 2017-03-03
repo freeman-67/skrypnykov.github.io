@@ -6,7 +6,6 @@ div.main-menu{
 	background-color: #A64DFF;
 }
 .top-nav{
-	/*text-align: center;*/
 	margin-left: 40px;
 	padding: 5px;
 }
@@ -24,7 +23,7 @@ div.main-menu{
 }
 .top-nav li a.active,
 .top-nav li a:hover {
-	padding: 7px 15px;
+	padding: 6px 15px;
 	color: #999;
 	background-color: #F5F5F5;
 	box-shadow: 0 0 9px 0 #C2C2C2;
