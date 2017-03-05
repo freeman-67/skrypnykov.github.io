@@ -1,16 +1,18 @@
-#Kurse HTML
+Kurse HTML
+=====================
 
 ###Lektion1
 
 <https://jsfiddle.net/>  
 
-111
+
 =====================
 ###Lektion2
 
 <http://htmlbook.ru/samlayout/rezhimy-brauzerov>  
 <http://htmlbook.ru/html/>  
 <https://pages.github.com/>  
+
 
 =====================
 ###Lektion3
@@ -38,6 +40,7 @@
 
 **Задание**  
 <http://codepen.io/puzankov/pen/xboXvB>  
+
 
 =====================
 ###Lektion4
@@ -102,6 +105,7 @@ CSS3
 
 <http://lea.verou.me/css3patterns/>  
 <http://www.cssmatic.com/gradient-generator>  
+
 
 =====================
 ###Lektion5
