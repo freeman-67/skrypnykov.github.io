@@ -29,18 +29,18 @@ Kurse HTML
 * [псевдоэлементы :before :after](http://codepen.io/puzankov/pen/zxVPmO) 
  
 Каскад
-><http://codepen.io/puzankov/pen/VYJrEm>  	
+* <http://codepen.io/puzankov/pen/VYJrEm>  	
 
 Специфичность
-><http://codepen.io/puzankov/pen/BygmqY>  
+* <http://codepen.io/puzankov/pen/BygmqY>  
 
 **Задание**  
 <http://codepen.io/puzankov/pen/xboXvB>  
 
 ###Lektion4
-
+---
 Размеры и отступы
-><http://codepen.io/puzankov/pen/NPZQBm>  
+* <http://codepen.io/puzankov/pen/NPZQBm>  
 
 Блочные элементы (block)  
 * [Основы выравнивания блоков](http://codepen.io/puzankov/pen/EaBqeZ?editors=110)  
