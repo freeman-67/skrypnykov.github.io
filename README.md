@@ -1,17 +1,18 @@
-Kurse HTML
+#Kurse HTML
 ***
-=====================
 
 ###Lektion1
 
 <https://jsfiddle.net/>  
 
+=====================
 ###Lektion2
 
 <http://htmlbook.ru/samlayout/rezhimy-brauzerov>  
 <http://htmlbook.ru/html/>  
 <https://pages.github.com/>  
 
+=====================
 ###Lektion3
 
 <http://www.csszengarden.com/>  
@@ -38,8 +39,8 @@ Kurse HTML
 **Задание**  
 <http://codepen.io/puzankov/pen/xboXvB>  
 
-###Lektion4
 =====================
+###Lektion4
   
 Размеры и отступы
 * <http://codepen.io/puzankov/pen/NPZQBm>  
@@ -64,6 +65,7 @@ Kurse HTML
 * [Inline-block](http://dabblet.com/gist/2910936)  
 * [Замещаемые блоки](http://dabblet.com/gist/2911002)  
 
+=====================
 ###Lektion5
 
 <http://ru.learnlayout.com/toc.html>  
