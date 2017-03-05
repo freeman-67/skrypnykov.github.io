@@ -50,6 +50,15 @@ Kurse HTML
 >[Вертикальные отступы auto](http://codepen.io/puzankov/pen/vEogYB?editors=110)  
 >[Схлопывание вертикальных margin’ов](http://codepen.io/puzankov/pen/KwOaKv?editors=110)    
 
+Строчные элементы (inline)
+>[Анонимный текст](http://codepen.io/puzankov/pen/dPxNmo?editors=110)  
+>[Пробелы в строчных элементах](http://codepen.io/puzankov/pen/qEeRKB?editors=110)  
+>[line-height](http://codepen.io/puzankov/pen/jEgypx?editors=110)  
+>[vertical-align](http://dabblet.com/gist/2835834)  
+>[Фон и line-height](http://dabblet.com/gist/2910798)  
+>[Влияние свойств на строчне элементы](http://dabblet.com/gist/2910833)  
+
+
 ###Lektion5
 
 <http://ru.learnlayout.com/toc.html>  
