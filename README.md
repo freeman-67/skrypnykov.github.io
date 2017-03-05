@@ -59,8 +59,8 @@ Kurse HTML
 >[Влияние свойств на строчне элементы](http://dabblet.com/gist/2910833)  
 
 Строчные блоки (inline-block)  
-*[Inline-block](http://dabblet.com/gist/2910936)  
-*[Замещаемые блоки](http://dabblet.com/gist/2911002)  
+* [Inline-block](http://dabblet.com/gist/2910936)  
+* [Замещаемые блоки](http://dabblet.com/gist/2911002)  
 
 ###Lektion5
 
