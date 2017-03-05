@@ -126,13 +126,29 @@ overflow
 * hidden
 * auto
 * scroll
-
+  
 * overflow:
 * overflow-x:
 * overflow-y:
 
 [Try overflow](http://codepen.io/puzankov/pen/JdPPga?editors=110)  
 [Try it one more time](http://codepen.io/puzankov/pen/zGOYYj?editors=110)  
+
+
+z-index
+* [z-index 1](http://codepen.io/puzankov/pen/EjYxaR?editors=110)  
+* [z-index 2](http://codepen.io/puzankov/pen/PqYoPq?editors=110)  
+* [z-index 3](http://codepen.io/puzankov/pen/GJKRog?editors=110)  
+
+Таблицы
+* [HTML table](http://codepen.io/puzankov/pen/dobypE?editors=110)  
+* [display="table"](http://codepen.io/puzankov/pen/GJKRrJ?editors=110)  
+* [table-layout](http://codepen.io/puzankov/pen/XbrWpB?editors=110)  
+* [layout](http://codepen.io/puzankov/pen/qdWBrv?editors=110)  
+
+Прятки (visibility)
+*[visibility: hidden; vs display: none;](http://codepen.io/puzankov/pen/bdbGrq?editors=110)  
+
 
 <http://ru.learnlayout.com/toc.html>  
 <https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_Started/Readable_CSS>  
