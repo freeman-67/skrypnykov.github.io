@@ -29,7 +29,6 @@ Kurse HTML
 >[псевдоэлементы :before :after](http://codepen.io/puzankov/pen/zxVPmO) 
  
 Каскад
-><http://www.csszengarden.com/>
 ><http://codepen.io/puzankov/pen/VYJrEm>  
 
 
