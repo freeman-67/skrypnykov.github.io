@@ -29,13 +29,13 @@ Kurse HTML
 >[псевдоэлементы :before :after](http://codepen.io/puzankov/pen/zxVPmO) 
  
 Каскад
-><http://codepen.io/puzankov/pen/VYJrEm>  
+><http://codepen.io/puzankov/pen/VYJrEm>  	
 
 Специфичность
 ><http://codepen.io/puzankov/pen/BygmqY>  
 
-Задание
-><http://codepen.io/puzankov/pen/xboXvB>  
+Задание  
+<http://codepen.io/puzankov/pen/xboXvB>  
 
 ###Lektion4
 
