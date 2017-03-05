@@ -19,7 +19,7 @@ Kurse HTML
 
 >
 ><http://www.csszengarden.com/>  
->[id and class selectors]<http://codepen.io/puzankov/pen/GgbWKy>  
+>[id and class selectors](http://codepen.io/puzankov/pen/GgbWKy)  
 >
 
 ###Lektion4
