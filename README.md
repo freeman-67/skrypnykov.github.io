@@ -1,4 +1,5 @@
 Kurse HTML
+***
 =====================
 
 ###Lektion1
@@ -38,7 +39,8 @@ Kurse HTML
 <http://codepen.io/puzankov/pen/xboXvB>  
 
 ###Lektion4
-***  
+=====================
+  
 Размеры и отступы
 * <http://codepen.io/puzankov/pen/NPZQBm>  
 
