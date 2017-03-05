@@ -122,17 +122,17 @@ clip
 * [clip absolute element](http://codepen.io/puzankov/pen/pJzzme?editors=110)  
 
 overflow  
-* visible 
+* visible
 * hidden
-* auto]
+* auto
 * scroll
 
-* overflow: 
+* overflow:
 * overflow-x:
 * overflow-y:
 
-* [Try overflow](http://codepen.io/puzankov/pen/JdPPga?editors=110)  
-* [Try it one more time](http://codepen.io/puzankov/pen/zGOYYj?editors=110)  
+[Try overflow](http://codepen.io/puzankov/pen/JdPPga?editors=110)  
+[Try it one more time](http://codepen.io/puzankov/pen/zGOYYj?editors=110)  
 
 <http://ru.learnlayout.com/toc.html>  
 <https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_Started/Readable_CSS>  
