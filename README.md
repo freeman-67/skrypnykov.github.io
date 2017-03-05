@@ -31,6 +31,11 @@ Kurse HTML
 Каскад
 ><http://codepen.io/puzankov/pen/VYJrEm>  
 
+Специфичность
+><http://codepen.io/puzankov/pen/BygmqY>  
+
+Задание
+><http://codepen.io/puzankov/pen/xboXvB>  
 
 ###Lektion4
 
