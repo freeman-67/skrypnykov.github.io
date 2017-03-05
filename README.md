@@ -19,17 +19,17 @@ Kurse HTML
 
 
 Селекторы
-[Селекторы атрибутов](http://codepen.io/puzankov/pen/Bygmxm)  
-[Селекторы потомков](http://codepen.io/puzankov/pen/pvXdVx)  
-[pseudo-class :nth-child()](http://codepen.io/puzankov/pen/gbNXKx)  
-[pseudo-class :nth-of-type()](http://codepen.io/puzankov/pen/EaBbpY)  
-[псевдоклассы :link :visited :active :hover :focus](http://codepen.io/puzankov/pen/YPoEjp)  
-[псевдоклассы :enabled :disabled :checked](http://codepen.io/puzankov/pen/bNPYjv)  
-[псевдоэлементы :first-line :first-letter](http://codepen.io/puzankov/pen/yydPxG)  
-[псевдоэлементы :before :after](http://codepen.io/puzankov/pen/zxVPmO) 
+>[Селекторы атрибутов](http://codepen.io/puzankov/pen/Bygmxm)  
+>[Селекторы потомков](http://codepen.io/puzankov/pen/pvXdVx)  
+>[pseudo-class :nth-child()](http://codepen.io/puzankov/pen/gbNXKx)  
+>[pseudo-class :nth-of-type()](http://codepen.io/puzankov/pen/EaBbpY)  
+>[псевдоклассы :link :visited :active :hover :focus](http://codepen.io/puzankov/pen/YPoEjp)  
+>[псевдоклассы :enabled :disabled :checked](http://codepen.io/puzankov/pen/bNPYjv)  
+>[псевдоэлементы :first-line :first-letter](http://codepen.io/puzankov/pen/yydPxG)  
+>[псевдоэлементы :before :after](http://codepen.io/puzankov/pen/zxVPmO) 
  
 Каскад
-<codepen.io/puzankov/pen/VYJrEm>  
+><codepen.io/puzankov/pen/VYJrEm>  
 
 
 >[]()  
