@@ -115,7 +115,7 @@ CSS3
 position
 * [static](http://codepen.io/puzankov/pen/bdbbob?editors=110)  
 * [relative](http://codepen.io/puzankov/pen/eNOOGg?editors=110)  
-* [absolute](http://codepen.io/puzankov/pen/dobbKq?editors=110) "()"  
+* [absolute](http://codepen.io/puzankov/pen/dobbKq?editors=110) ([tip1](), [tip2](), [tip3]())  
 * [fixed](http://codepen.io/puzankov/pen/rVBBrz?editors=110)   
 
 <http://ru.learnlayout.com/toc.html>  
