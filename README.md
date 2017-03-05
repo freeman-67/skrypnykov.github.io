@@ -7,7 +7,7 @@ Kurse HTML
 
 
 =====================
-###Lektion2
+### Lektion2 ###
 
 <http://htmlbook.ru/samlayout/rezhimy-brauzerov>  
 <http://htmlbook.ru/html/>  
@@ -15,7 +15,7 @@ Kurse HTML
 
 
 =====================
-###Lektion3
+### Lektion3 ###
 
 <http://www.csszengarden.com/>  
 
@@ -43,7 +43,7 @@ Kurse HTML
 
 
 =====================
-###Lektion4
+### Lektion4 ###
   
 Размеры и отступы
 * <http://codepen.io/puzankov/pen/NPZQBm>  
@@ -108,7 +108,7 @@ CSS3
 
 
 =====================
-###Lektion5
+### Lektion5 ###
 
 Позиционирование (position)
 
