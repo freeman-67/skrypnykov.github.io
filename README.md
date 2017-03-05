@@ -17,6 +17,11 @@ Kurse HTML
 
 ###Lektion3
 
+>
+><http://www.csszengarden.com/>  
+>[id and class selectors]<http://codepen.io/puzankov/pen/GgbWKy>  
+>
+
 ###Lektion4
 
 ###Lektion5
