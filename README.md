@@ -34,7 +34,7 @@ Kurse HTML
 Специфичность
 ><http://codepen.io/puzankov/pen/BygmqY>  
 
-Задание  
+**Задание**  
 <http://codepen.io/puzankov/pen/xboXvB>  
 
 ###Lektion4
