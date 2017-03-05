@@ -121,18 +121,17 @@ clip
 * [clip absolute element](http://codepen.io/puzankov/pen/pJzzme?editors=110)  
 
 overflow  
-* visible
-* hidden
-* auto
-* scroll
-  
-* overflow:
-* overflow-x:
-* overflow-y:
+- visible
+- hidden
+- auto
+- scroll
+
++ overflow:
++ overflow-x:
++ overflow-y:
 
 [Try overflow](http://codepen.io/puzankov/pen/JdPPga?editors=110)  
 [Try it one more time](http://codepen.io/puzankov/pen/zGOYYj?editors=110)  
-
 
 z-index
 * [z-index 1](http://codepen.io/puzankov/pen/EjYxaR?editors=110)  
@@ -148,10 +147,9 @@ z-index
 Прятки (visibility)  
 * [visibility: hidden; vs display: none;](http://codepen.io/puzankov/pen/bdbGrq?editors=110)  
 
-
 <http://ru.learnlayout.com/toc.html>  
 <https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_Started/Readable_CSS>  
 
+
 =====================
 ###Lektion6
-
