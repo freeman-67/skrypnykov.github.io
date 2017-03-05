@@ -146,8 +146,8 @@ z-index
 * [table-layout](http://codepen.io/puzankov/pen/XbrWpB?editors=110)  
 * [layout](http://codepen.io/puzankov/pen/qdWBrv?editors=110)  
 
-Прятки (visibility)
-*[visibility: hidden; vs display: none;](http://codepen.io/puzankov/pen/bdbGrq?editors=110)  
+Прятки (visibility)  
+* [visibility: hidden; vs display: none;](http://codepen.io/puzankov/pen/bdbGrq?editors=110)  
 
 
 <http://ru.learnlayout.com/toc.html>  
