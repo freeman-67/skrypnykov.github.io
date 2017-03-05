@@ -110,9 +110,8 @@ CSS3
 =====================
 ###Lektion5
 
-Позиционирование
+Позиционирование (position)
 
-position
 * [static](http://codepen.io/puzankov/pen/bdbbob?editors=110)  
 * [relative](http://codepen.io/puzankov/pen/eNOOGg?editors=110)  
 * [absolute](http://codepen.io/puzankov/pen/dobbKq?editors=110) ([tip1](http://codepen.io/puzankov/pen/wawwYB?editors=110), [tip2](http://codepen.io/puzankov/pen/KpPPrg?editors=110), [tip3](http://codepen.io/puzankov/pen/KpPPbN?editors=110))  
