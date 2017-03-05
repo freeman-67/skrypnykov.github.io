@@ -20,7 +20,18 @@ Kurse HTML
 >
 ><http://www.csszengarden.com/>  
 >[id and class selectors](http://codepen.io/puzankov/pen/GgbWKy)  
+>[Селекторы атрибутов](http://codepen.io/puzankov/pen/Bygmxm)  
+>[]()  
+>[]()  
+>[]()  
+>[]()  
+>[]()  
+>[]()  
+>[]()  
+>[]()  
 >
+
+
 
 ###Lektion4
 
