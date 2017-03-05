@@ -110,5 +110,13 @@ CSS3
 =====================
 ###Lektion5
 
+Позиционирование
+
+position
+* [static](http://codepen.io/puzankov/pen/bdbbob?editors=110)  
+* [relative](http://codepen.io/puzankov/pen/eNOOGg?editors=110)  
+* [absolute](http://codepen.io/puzankov/pen/dobbKq?editors=110) "()"  
+* [fixed](http://codepen.io/puzankov/pen/rVBBrz?editors=110)   
+
 <http://ru.learnlayout.com/toc.html>  
 <https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_Started/Readable_CSS>  
