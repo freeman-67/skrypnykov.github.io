@@ -39,6 +39,9 @@ Kurse HTML
 
 ###Lektion4
 
+Размеры и отступы
+><http://codepen.io/puzankov/pen/NPZQBm>
+
 ###Lektion5
 
 <http://ru.learnlayout.com/toc.html>  
