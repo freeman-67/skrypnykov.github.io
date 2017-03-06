@@ -152,3 +152,6 @@ Kurse HTML
 
 =====================
 ### Lektion6 ###
+
+**list-style-type (ul)
+Lets**  
