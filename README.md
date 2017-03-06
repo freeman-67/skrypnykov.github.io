@@ -181,6 +181,12 @@ Kurse HTML
 * [one more absolute](http://codepen.io/puzankov/pen/RPwNyV?editors=110)  
 * [flex](http://codepen.io/puzankov/pen/PqoweO?editors=110)  
 
+**media-query**  
+* [Try it + not](http://codepen.io/puzankov/pen/oXNBwJ?editors=110)  
+* [Example](http://codepen.io/puzankov/pen/QbWdMG?editors=110)  
 
 
+
+=====================
+### Lektion7 ###
 
