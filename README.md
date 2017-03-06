@@ -174,6 +174,13 @@ Kurse HTML
 * [counter game](http://codepen.io/puzankov/pen/MwgoyE?editors=110)  
 * [attr()](http://codepen.io/puzankov/pen/eNOXvy?editors=110)  
 
+**layout**  
+* [inline-block](http://codepen.io/puzankov/pen/xGKBry?editors=110)  
+* [float](http://codepen.io/puzankov/pen/QbLoqp?editors=110)  
+* [absolute](http://codepen.io/puzankov/pen/eNYmVa?editors=110)  
+* [one more absolute](http://codepen.io/puzankov/pen/RPwNyV?editors=110)  
+* [flex](http://codepen.io/puzankov/pen/PqoweO?editors=110)  
+
 
 
 
