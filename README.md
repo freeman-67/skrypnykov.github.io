@@ -121,14 +121,14 @@ clip
 * [clip absolute element](http://codepen.io/puzankov/pen/pJzzme?editors=110)  
 
 overflow  
-- visible
-- hidden
-- auto
-- scroll
+visible  
+hidden  
+auto  
+scroll  
 
-+ overflow:
-+ overflow-x:
-+ overflow-y:
+overflow:  
+overflow-x:  
+overflow-y:  
 
 [Try overflow](http://codepen.io/puzankov/pen/JdPPga?editors=110)  
 [Try it one more time](http://codepen.io/puzankov/pen/zGOYYj?editors=110)  
