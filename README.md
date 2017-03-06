@@ -22,7 +22,7 @@ Kurse HTML
 [id and class selectors](http://codepen.io/puzankov/pen/GgbWKy)  
 
 
-Селекторы  
+**Селекторы**  
 * [Селекторы атрибутов](http://codepen.io/puzankov/pen/Bygmxm)  
 * [Селекторы потомков](http://codepen.io/puzankov/pen/pvXdVx)  
 * [pseudo-class :nth-child()](http://codepen.io/puzankov/pen/gbNXKx)  
@@ -32,10 +32,10 @@ Kurse HTML
 * [псевдоэлементы :first-line :first-letter](http://codepen.io/puzankov/pen/yydPxG)  
 * [псевдоэлементы :before :after](http://codepen.io/puzankov/pen/zxVPmO) 
  
-Каскад
+**Каскад**  
 * <http://codepen.io/puzankov/pen/VYJrEm>  	
 
-Специфичность
+**Специфичность**  
 * <http://codepen.io/puzankov/pen/BygmqY>  
 
 **Задание**  
@@ -45,10 +45,10 @@ Kurse HTML
 =====================
 ### Lektion4 ###
   
-Размеры и отступы
+**Размеры и отступы**  
 * <http://codepen.io/puzankov/pen/NPZQBm>  
 
-Блочные элементы (block)  
+**Блочные элементы (block)**  
 * [Основы выравнивания блоков](http://codepen.io/puzankov/pen/EaBqeZ?editors=110)  
 * [Отрицательный margin](http://codepen.io/puzankov/pen/qEzeMX?editors=110)  
 * [Замещаемые элементы](http://codepen.io/puzankov/pen/ZYdgqQ?editors=110)  
@@ -56,7 +56,7 @@ Kurse HTML
 * [Вертикальные отступы auto](http://codepen.io/puzankov/pen/vEogYB?editors=110)  
 * [Схлопывание вертикальных margin’ов](http://codepen.io/puzankov/pen/KwOaKv?editors=110)    
 
-Строчные элементы (inline)  
+**Строчные элементы (inline)**  
 * [Анонимный текст](http://codepen.io/puzankov/pen/dPxNmo?editors=110)  
 * [Пробелы в строчных элементах](http://codepen.io/puzankov/pen/qEeRKB?editors=110)  
 * [line-height](http://codepen.io/puzankov/pen/jEgypx?editors=110)  
@@ -64,30 +64,30 @@ Kurse HTML
 * [Фон и line-height](http://dabblet.com/gist/2910798)  
 * [Влияние свойств на строчне элементы](http://dabblet.com/gist/2910833)  
 
-Строчные блоки (inline-block)  
+**Строчные блоки (inline-block)**  
 * [Inline-block](http://dabblet.com/gist/2910936)  
 * [Замещаемые блоки](http://dabblet.com/gist/2911002)  
 
-Изменение представления элемента  
+**Изменение представления элемента**  
 * <http://dabblet.com/gist/2911120>  
 
-margin, padding, border  
+**margin, padding, border**  
 * [Значения вертикальных отступов](http://dabblet.com/gist/2918360)  
 * [Отрицательный отступ](http://dabblet.com/gist/2918382)  
 * [border](http://dabblet.com/gist/2918543)  
 * [Фон + padding и border](http://dabblet.com/gist/2918601)  
 * [box-sizing](http://codepen.io/puzankov/pen/vEoRNB?editors=110)  
 
-Цвета и фон  
+**Цвета и фон**  
 * [Цвета](http://dabblet.com/gist/2918653)  
 * [color](http://dabblet.com/gist/2918712)  
 
-Background  
+**Background**  
 * [background-attachment](http://dabblet.com/gist/2918719)  
 * [background-color](http://codepen.io/puzankov/pen/dPxzZR?editors=110)  
 * [background-clip](http://dabblet.com/gist/2964789)  
 
-float
+**float**  
 * [Обычный поток и float](http://dabblet.com/gist/2932299)  
 * [У float’ов свой поток](http://dabblet.com/gist/2932560)  
 * [Друг на против друга](http://dabblet.com/gist/2932414)  
@@ -95,7 +95,7 @@ float
 * [Перекрытие](http://dabblet.com/gist/2936181)  
 * [Вертикальный отступ](http://dabblet.com/gist/2936231)  
 
-CSS3
+**CSS3**  
 * [linear-gradient for text](http://codepen.io/puzankov/pen/ZYgROp?editors=110)  
 * [linear-gradient color](http://codepen.io/puzankov/pen/MYNXje?editors=110)  
 * [multipoint gradient](http://codepen.io/puzankov/pen/YPmvGj?editors=110)  
@@ -110,17 +110,16 @@ CSS3
 =====================
 ### Lektion5 ###
 
-Позиционирование (position)
-
+**Позиционирование (position)**  
 * [static](http://codepen.io/puzankov/pen/bdbbob?editors=110)  
 * [relative](http://codepen.io/puzankov/pen/eNOOGg?editors=110)  
 * [absolute](http://codepen.io/puzankov/pen/dobbKq?editors=110) ([tip1](http://codepen.io/puzankov/pen/wawwYB?editors=110), [tip2](http://codepen.io/puzankov/pen/KpPPrg?editors=110), [tip3](http://codepen.io/puzankov/pen/KpPPbN?editors=110))  
 * [fixed](http://codepen.io/puzankov/pen/rVBBrz?editors=110) ([popup](http://codepen.io/puzankov/pen/bdbbZV?editors=110))   
 
-clip  
+**clip**  
 * [clip absolute element](http://codepen.io/puzankov/pen/pJzzme?editors=110)  
 
-overflow  
+**overflow**    
 visible  
 hidden  
 auto  
@@ -133,18 +132,18 @@ overflow-y:
 [Try overflow](http://codepen.io/puzankov/pen/JdPPga?editors=110)  
 [Try it one more time](http://codepen.io/puzankov/pen/zGOYYj?editors=110)  
 
-z-index
+**z-index**  
 * [z-index 1](http://codepen.io/puzankov/pen/EjYxaR?editors=110)  
 * [z-index 2](http://codepen.io/puzankov/pen/PqYoPq?editors=110)  
 * [z-index 3](http://codepen.io/puzankov/pen/GJKRog?editors=110)  
 
-Таблицы
+**Таблицы**  
 * [HTML table](http://codepen.io/puzankov/pen/dobypE?editors=110)  
 * [display="table"](http://codepen.io/puzankov/pen/GJKRrJ?editors=110)  
 * [table-layout](http://codepen.io/puzankov/pen/XbrWpB?editors=110)  
 * [layout](http://codepen.io/puzankov/pen/qdWBrv?editors=110)  
 
-Прятки (visibility)  
+**Прятки (visibility)**  
 * [visibility: hidden; vs display: none;](http://codepen.io/puzankov/pen/bdbGrq?editors=110)  
 
 <http://ru.learnlayout.com/toc.html>  
