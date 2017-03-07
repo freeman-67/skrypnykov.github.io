@@ -10,6 +10,7 @@ body{
 	background-image: url(images/bg.png);
 	font-family: 'Oxygen', sans-serif;
 	text-align: center;
+	-width: 1020px;
 }
 .testimonials_header{
 	padding: 10px 0;
@@ -27,22 +28,23 @@ body{
 	position: relative;
 	text-align: left;
 	vertical-align: top;
-	margin: 0 15px 40px 0;
+	margin: 0 50px 50px 0;
+	
 }
 .testimonials_box img{
 	float: left;
 	width: 106px;
 	height: 106px;
-	margin: 0 25px;
 }
 
 .testimonials_box_say{
 	float: left;
-	width: 420px;
+	width: 360px;
 	min-height: 106px;
 	background-color: #f8f8ff;
 	font-size: 0.9em;
 	overflow: hidden;
+	margin-left: 25px;
 }
 .arr{
 	width: 0;
@@ -52,7 +54,7 @@ body{
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	left: 126px;
+	left: 101px;
 	margin: auto;
 }
 .testimonials_box_header{
