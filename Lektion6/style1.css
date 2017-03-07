@@ -32,7 +32,7 @@ body{
 	position: relative;
 	display: inline-block;
 	width: 274px;
-    text-align: center;
+    	text-align: center;
  	border-radius: 5px;
  	background-color: white;  
 }
@@ -102,11 +102,11 @@ ul{
 	padding: 0;
 	width: 88%;
 	text-align: left;
-    list-style-type: none;
-    text-transform: none;
-    color: #898D95;
-    font-size: 0.9em;
-    margin: auto;
+    	list-style-type: none;
+    	text-transform: none;
+    	color: #898D95;
+    	font-size: 0.9em;
+    	margin: auto;
 }
 ul li{
 	margin-bottom: 1px; 
@@ -119,19 +119,19 @@ ul li:nth-of-type(even){
 	background: #F5F5F6;
 }
 ul li::before{
-    content: url("images/marker.png");
-    padding-right: 15px;
+    	content: url("images/marker.png");
+    	padding-right: 15px;
 }
 
 input{
 	width: 86%;
 	padding: 10px;
 	font-size: 0.8em;
-    font-weight: bold;
+    	font-weight: bold;
 	color: white;
-    border: none;
-    border-radius: 5px;
-    outline: 0;
+    	border: none;
+    	border-radius: 5px;
+    	outline: 0;
 }
 .price_list_active input{
 	background: #EE822A;
