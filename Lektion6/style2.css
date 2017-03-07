@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.testimonials{
+	background-image: url(images/bg.png);
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+.testimonials_header{
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: #3271A9;
+}
+.testimonials_header h2 span{
+	color: #EE822A;
+}
+
+.testimonials_box{
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	vertical-align: top;
+	margin: 0 15px 40px 0;
+}
+.testimonials_box img{
+	float: left;
+	width: 106px;
+	height: 106px;
+	margin: 0 25px;
+}
+
+.testimonials_box_say{
+	float: left;
+	width: 420px;
+	min-height: 106px;
+	background-color: #f8f8ff;
+	font-size: 0.9em;
+	overflow: hidden;
+}
+.arr{
+	width: 0;
+	height: 0;
+	border: 15px solid;
+	border-color:  transparent #f8f8ff transparent transparent ;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 126px;
+	margin: auto;
+}
+.testimonials_box_header{
+	font-style: italic;
+	color: #3271A9;
+	font-weight: 700;
+	overflow: auto;
+	margin: 0 20px;
+	border-bottom: 2px dotted #ccc;
+}
+.testimonials_box_header .name{
+	float: left;
+	margin: 10px 0;
+}
+.testimonials_box_header .name::before{
+	content: "- ";
+}
+.testimonials_box_header .customer{
+   	float: right;
+   	margin: 10px;
+}
+.testimonials_box_say > p{
+	font-family: 'Roboto', sans-serif;
+	color: #888;
+	margin: 10px 20px;
+}
