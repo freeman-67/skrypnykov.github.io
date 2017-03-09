@@ -198,3 +198,6 @@ Kurse HTML
 * [Измерение длины em/rem/ex](http://codepen.io/puzankov/pen/PqoaZe?editors=110)
 * vh, vw, vmin, vmax
 * calc()
+
+Почитать подробнее и попробовать
+<http://shpargalkablog.ru/2013/03/px-em-calc.html>
