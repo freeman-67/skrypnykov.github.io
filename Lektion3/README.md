@@ -1,6 +1,4 @@
-Kurse HTML
-=====================
-### Lektion3 ###
+# Lektion3
 
 <http://www.csszengarden.com/>  
 
@@ -25,6 +23,3 @@ Kurse HTML
 
 **Задание**  
 <http://codepen.io/puzankov/pen/xboXvB>  
-
-
-=====================

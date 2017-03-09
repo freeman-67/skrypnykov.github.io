@@ -1,6 +1,4 @@
-Kurse HTML
-=====================
-### Lektion7 ###
+# Lektion7
 
 
 **Значения и единицы измерения**
@@ -32,6 +30,3 @@ Kurse HTML
 * [Оформление текста](http://codepen.io/puzankov/pen/xGxaow?editors=110)
 * [Затенение текста](http://codepen.io/puzankov/pen/MwWqNd?editors=110)
 * [Multi column](http://codepen.io/puzankov/pen/NqWOWL?editors=110)  
-
-=====================
-

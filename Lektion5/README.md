@@ -1,6 +1,4 @@
-Kurse HTML
-=====================
-### Lektion5 ###
+# Lektion5
 
 **Позиционирование (position)**  
 * [static](http://codepen.io/puzankov/pen/bdbbob?editors=110)  
@@ -40,6 +38,3 @@ Kurse HTML
 
 <http://ru.learnlayout.com/toc.html>  
 <https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_Started/Readable_CSS>  
-
-
-=====================

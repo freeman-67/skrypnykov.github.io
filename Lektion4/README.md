@@ -1,6 +1,4 @@
-Kurse HTML
-=====================
-### Lektion4 ###
+# Lektion4
   
 **Размеры и отступы**  
 * <http://codepen.io/puzankov/pen/NPZQBm>  
@@ -62,6 +60,3 @@ Kurse HTML
 
 <http://lea.verou.me/css3patterns/>  
 <http://www.cssmatic.com/gradient-generator>  
-
-
-=====================

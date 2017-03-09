@@ -1,6 +1,4 @@
-Kurse HTML
-=====================
-### Lektion6 ###
+# Lektion6
 
 **list-style-type (ul)**  
 <http://codepen.io/puzankov/pen/dobWze?editors=110>  
@@ -33,5 +31,3 @@ Kurse HTML
 **media-query**  
 * [Try it + not](http://codepen.io/puzankov/pen/oXNBwJ?editors=110)  
 * [Example](http://codepen.io/puzankov/pen/QbWdMG?editors=110)  
-
-=====================
