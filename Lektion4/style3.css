@@ -5,6 +5,8 @@ div.pager{
 	width: 800px;
 	margin: auto;
 	position: absolute;
+	top: 0;
+	left:0;
 	bottom: 0;
 }
 li a{
