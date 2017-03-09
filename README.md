@@ -190,3 +190,11 @@ Kurse HTML
 =====================
 ### Lektion7 ###
 
+**Значения и единицы измерения**
+
+* Числа
+* [Процентные значения](http://codepen.io/puzankov/pen/qdBKEa)
+* [Цвет](http://codepen.io/puzankov/pen/XbWYXb?editors=110)
+* [Измерение длины em/rem/ex](http://codepen.io/puzankov/pen/PqoaZe?editors=110)
+* vh, vw, vmin, vmax
+* calc()
