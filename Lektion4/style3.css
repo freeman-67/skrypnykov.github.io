@@ -1,6 +1,12 @@
+body{
+	position:relative;
+}
 div.pager{
 	width: 800px;
 	margin: auto;
+	position: relative;
+	bottom:0;
+
 }
 li a{
 	text-decoration: none;
