@@ -1,15 +1,6 @@
-body{
-	position: relative;
-	height: 500px;
-}
 div.pager{
 	width: 800px;
-	margin: auto 0;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	top: 0;
+	margin: auto;
 }
 li a{
 	text-decoration: none;
