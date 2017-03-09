@@ -200,4 +200,12 @@ Kurse HTML
 * calc()
 
 Почитать подробнее и попробовать
-<http://shpargalkablog.ru/2013/03/px-em-calc.html>
+<http://shpargalkablog.ru/2013/03/px-em-calc.html>  
+
+**Шрифты**
+* [Семейства шрифтов](http://codepen.io/puzankov/pen/JdjarP?editors=110)
+* [Насыщенность](http://codepen.io/puzankov/pen/RPwYEV?editors=110)
+* [Размер](http://codepen.io/puzankov/pen/qdBMgb?editors=110)
+* [Стили и варианты](http://codepen.io/puzankov/pen/BNaOMY?editors=110)  
+* [Свойство font](http://codepen.io/puzankov/pen/qdBMvb?editors=110)  
+* [Внешние шрифты](http://codepen.io/puzankov/pen/jPOvJe?editors=110)  
