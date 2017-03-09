@@ -2,13 +2,11 @@ div.pager{
 	width: 800px;
 	margin: auto;
 }
-
 li a{
 	text-decoration: none;
 	padding: 0;
 	color: #A64DF9;
 }
-
 ul.nav-items,
 ul.numerals{
 	padding: 0;
@@ -17,16 +15,13 @@ ul.numerals{
 	text-transform: uppercase;
 	text-align: center;
 }
-
 .nav-items li{
 	display: inline-block;
 }
-
 ul.nav-items > li a,
 ul.numerals li a{
 	padding: 2px 8px;
 }
-
 ul.nav-items li a.left-dir:before {
 	content: "\276C\276C";
 	padding-right: 3px;
@@ -41,17 +36,14 @@ ul.nav-items li a.rigth-dir:after{
 	position: relative;
 	bottom: 1px;
 }
-
 ul.numerals li:not([class="none"]){
 	border: 1px solid rgba(166,77,249,0.3);
 	border-radius: 5px;
 }
-
 .none{
 	position: relative;
 	top: 3px;
 }
-
 li a.active,
 ul.nav-items li a:hover{
 	padding: 2px 8px;
