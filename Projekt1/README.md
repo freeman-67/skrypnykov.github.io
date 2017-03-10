@@ -1,6 +1,6 @@
-# Projekt1
+Lektion7 
 
-## Задание 2  
+## Задание 2  Projekt 1
 
 Начинаем собирать наш project1.  
 
