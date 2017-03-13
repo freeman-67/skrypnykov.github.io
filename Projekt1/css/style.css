@@ -427,7 +427,7 @@ body{
 .footer__section--right{
 	float: right;
 	height: 344px;
-	max-width: 701px;
+	width: 701px;
 	border: none;
 }
 .footer__section--bottom{
