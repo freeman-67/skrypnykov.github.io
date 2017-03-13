@@ -387,7 +387,7 @@ body{
 }
 .footer__contacts{
 	position: relative;
-	margin: 40px 100px 25px 250px;
+	margin: 40px 25px 25px 250px;
 }
 .footer__contacts li{ 
 	list-style-type: none;
