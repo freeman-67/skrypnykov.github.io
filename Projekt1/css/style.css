@@ -17,6 +17,12 @@ body{
 	max-width: 1400px;
 	margin: auto;
 }
+.header,
+.services,
+.pricing,
+.footer{
+	background-color: #FFFAFA;
+}
 
 /* Header section */
 .header{
@@ -102,7 +108,8 @@ body{
 }
 .services__heading{
 	width: 100%;
-	margin: 65px auto;
+	margin: auto;
+	padding: 65px 0;
 	text-align: center;
 	font-size: 1.8em;
 	text-transform: uppercase;
@@ -392,30 +399,30 @@ body{
 .footer__contacts li{ 
 	list-style-type: none;
 	line-height: 30px;
-    	color: #666666;
-    	font-size: 0.9em;
-    	font-weight: bold;
+    color: #666666;
+    font-size: 0.9em;
+    font-weight: bold;
 }
 .footer__contacts li:nth-child(n+5){
 	padding-top: 9px;
 }
 .footer__icon_pointer::before{
 	content: url("../img/footer__icon_pointer.png");
-    	position: absolute;
-    	left: -55px;
-    	top: 2px;
+    position: absolute;
+    left: -55px;
+    top: 2px;
 }
 .footer__icon_phone::before{
 	content: url("../img/footer__icon_phone.png");
-    	position: absolute;
-    	left: -58px;
-    	bottom: 27px;
+    position: absolute;
+    left: -58px;
+    bottom: 27px;
 }
 .footer__icon_mail::before{
 	content: url("../img/footer__icon_mail.png");
-    	position: absolute;
-    	left: -60px;
-    	bottom: -2px;
+    position: absolute;
+    left: -60px;
+    bottom: -2px;
 }
 .footer__section_social{
 	display: inline-block;
