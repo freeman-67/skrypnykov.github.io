@@ -8,7 +8,7 @@
 * [Timing function](http://codepen.io/puzankov/pen/LVExbm?editors=110)  
 * [Delay](http://codepen.io/puzankov/pen/jPEyyW?editors=110)  
 
-timing-functions <http://htmlbook.ru/css/transition-timing-function>  
+timing-functions - <http://htmlbook.ru/css/transition-timing-function>  
 
 **Transform**
 
@@ -25,7 +25,7 @@ timing-functions <http://htmlbook.ru/css/transition-timing-function>
 * [animation pause](http://codepen.io/puzankov/pen/NqPwpP?editors=110)  
 * [animation end](http://codepen.io/puzankov/pen/RPNjpE?editors=110)  
 
-Cool stuff <http://codepen.io/jeroens/post/the-illusion-of-life>  
+Cool stuff - <http://codepen.io/jeroens/post/the-illusion-of-life>  
 
 **3D Transform**
 
