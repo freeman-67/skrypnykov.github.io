@@ -21,7 +21,7 @@ body{
 .services,
 .pricing,
 .footer{
-	background-color: #fbffff;
+	background-color: #FFFAFA;
 }
 
 /* Header section */
@@ -50,17 +50,16 @@ body{
 }
 .menu__item{
 	display: inline-block;
-	text-transform: uppercase;
 }
 .menu__link{
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #989898;
 	padding-left: 18px;
 	padding-right: 18px;
 	font-size: 0.95em;
 }
 .menu__link:hover{
-	text-decoration: none;
 	color: #3070a8;
 	padding-bottom: 30px;
 	border-bottom: 5px solid #3070a8;
@@ -262,11 +261,11 @@ body{
 .pricing__price-list_list{
 	width: 88%;
 	text-align: left;
-    	list-style-type: none;
-    	text-transform: none;
-    	color: #898D95;
-    	font-size: 0.9em;
-    	margin: auto;
+    list-style-type: none;
+    text-transform: none;
+    color: #898D95;
+    font-size: 0.9em;
+    margin: auto;
 }
 .pricing__price-list_list li{
 	margin-bottom: 1px; 
@@ -279,18 +278,18 @@ body{
 	background: #F5F5F6;
 }
 .pricing__price-list_list li::before{
-    	content: url("../img/pricing__price-list_marker.png");
-    	padding-right: 15px;
+    content: url("../img/pricing__price-list_marker.png");
+    padding-right: 15px;
 }
 .pricing__button{
 	width: 86%;
 	padding: 10px;
 	font-size: 0.9em;
-    	font-weight: bold;
+    font-weight: bold;
 	color: white;
-    	border: none;
-    	border-radius: 5px;
-    	outline: 0;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
 }
 .pricing__price-list--active .pricing__button{
 	background: #EE822A;
@@ -399,30 +398,30 @@ body{
 .footer__contacts li{ 
 	list-style-type: none;
 	line-height: 30px;
-    	color: #666666;
-    	font-size: 0.9em;
-    	font-weight: bold;
+    color: #666666;
+    font-size: 0.9em;
+    font-weight: bold;
 }
 .footer__contacts li:nth-child(n+5){
 	padding-top: 9px;
 }
 .footer__icon_pointer::before{
 	content: url("../img/footer__icon_pointer.png");
-    	position: absolute;
-    	left: -55px;
-    	top: 2px;
+    position: absolute;
+    left: -55px;
+    top: 2px;
 }
 .footer__icon_phone::before{
 	content: url("../img/footer__icon_phone.png");
-    	position: absolute;
-    	left: -58px;
-    	bottom: 27px;
+    position: absolute;
+    left: -58px;
+    bottom: 27px;
 }
 .footer__icon_mail::before{
 	content: url("../img/footer__icon_mail.png");
-    	position: absolute;
-    	left: -60px;
-    	bottom: -2px;
+    position: absolute;
+    left: -60px;
+    bottom: -2px;
 }
 .footer__section_social{
 	display: inline-block;
