@@ -1,0 +1,233 @@
+/* CSS Mini Reset */
+html, body, div, form, fieldset, legend, label, h1, h2, h3, h4, h5, h6, th, td, caption {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th, td {
+	text-align: left;
+	vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6, th, td, caption { 
+	font-weight:normal;
+}
+img { 
+	border: 0; 
+}
+/* End CSS Mini reset*/
+
+
+body {
+	width: 1480px;
+	margin: 0 auto;
+}
+
+/* Section Header */
+.header {
+	background-image: url(../img/header__bg.png);
+	background-position: top center;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+}
+.header:after {
+    content: "";
+    background: #33ccff;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.header__logo {
+	display: inline-block;	
+	position: relative;
+	left: 152px;
+	top: 7px;
+}
+.header__logo_picture {
+	position: relative;
+	top: 4px;
+	left: 46px;
+}
+.header__logo_name {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 2.11em;
+	color: #33ccff;
+}
+.header__logo_name span {
+	color: white;
+}
+
+.header__menu {
+	background: rgba(100, 100, 100, 0.3) none repeat scroll 0 0;
+	box-shadow: 0 0 2px rgba(180, 180, 180, 0.9);
+	padding-bottom: 40px;
+}
+
+.header__menu_bar {
+	float: right;
+	position: relative;
+	right: 140px;
+	top: 21px;
+	margin-bottom: 45px;
+}
+.header__menu_item {
+	display: inline-block;
+	margin: 0 15px;
+}
+.header__menu_link {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 0.84em;
+	font-weight: 400;	
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.header__menu_item:hover .header__menu_link {
+	color: #33ccff;
+	padding-top: 37px;
+	border-top: 3px solid #33ccff;
+}
+
+
+.header__slider {
+	clear: both;
+	margin: 70px;
+	color: white;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+}
+.header__slider_content {
+	position: relative;
+	top: 166px;
+	left: 582px;
+	max-width: 670px;
+}
+.header__slider_content h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 3em;
+}
+.header__slider_content h1 span {
+	font-weight: 700;
+}
+
+.header__slider_content p {
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+}
+.header__slider_button {
+	position: relative;
+	top: 190px;
+	left: 565px;
+	display: inline-block;
+	border: 3px solid white;
+	border-radius: 6px;
+	margin: 0 18px;
+	
+}
+.header__slider_button a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding: 20px 48px;
+}
+.header__slider_button_learn {
+	background-color: #33ccff;
+	border-color: #33ccff;
+}
+.header__slider_button:hover {
+	text-shadow: 0 0 12px rgba(180, 180, 180, 0.9);
+	box-shadow: 0 0 12px rgba(180, 180, 180, 0.9);
+}
+
+.header__slider_available {
+	position: relative;
+	top: 235px;
+	left: 585px;
+	font-size: 1.2em;
+}
+
+.header__slider_controls_prev a,
+.header__slider_controls_next a,
+.header__slider_available_button a {
+	height: 20px;
+	width: 20px;
+	background-color: rgba(100, 100, 100, 0.3);
+	border-radius: 50%;
+	display: inline-block;
+	padding: 16px;
+}
+
+.header__slider_available_button {
+	display: inline-block;
+	margin-left: 12px;
+	position: relative;
+	top: 180px;
+	left: 704px;
+}
+
+.header__slider_available_button img {
+	position: relative;
+	top: -4px;
+	left: -1px;
+}
+
+.header__slider_controls_prev,
+.header__slider_controls_next {
+	display: inline-block;
+	position: relative;
+	top: -140px;
+}
+.header__slider_controls_next {
+	right: -1230px;
+}
+
+
+.header__slider_available_button a:hover {
+	box-shadow: 0 0 12px rgba(180, 180, 180, 0.9);
+}
+
+
+.header__slider_controls_prev a:hover,
+.header__slider_controls_next a:hover {
+	background-color: #33ccff;
+	font-weight: bold;
+	text-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+	box-shadow: 0 0 12px rgba(180, 180, 180, 0.9);
+}
+
+.header__slider_controls_prev a,
+.header__slider_controls_next a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.header__slider_nav_bottom li {
+	margin-left: 6px;
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 5px;
+	display: inline-block;
+	position: relative;
+	top: 186px;
+	left: 594px;
+}
+
+.header__slider_nav_bottom li a {
+	width: 5px;
+	height: 5px
+}
+
+.header__slider_nav_bottom li:hover {
+	background-color: #33ccff;
+	border-color: #33ccff;	
+}
