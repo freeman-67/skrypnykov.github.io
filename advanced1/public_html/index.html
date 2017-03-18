@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lato:100,300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
@@ -20,7 +21,7 @@
 </head>
 <body>
 	<!-- Section Header -->
-	<div class="header">
+	<div id="header" class="header">
 		<div class="header__menu">
 			<div class="header__logo">
 				<img class="header__logo_picture" src="img/logo.png" alt="header logo" />
@@ -28,35 +29,42 @@
 			</div>
 			<ul class="header__menu_bar">
 		        <li class="header__menu_item"><a href="#" class="header__menu_link">Home</a></li>
-				<li class="header__menu_item"><a href="#" class="header__menu_link">Features</a></li>
-				<li class="header__menu_item"><a href="#" class="header__menu_link">Gallery</a></li>
-				<li class="header__menu_item"><a href="#" class="header__menu_link">Video</a></li>
-				<li class="header__menu_item"><a href="#" class="header__menu_link">Prices</a></li>
-				<li class="header__menu_item"><a href="#" class="header__menu_link">Testimonials</a></li>
-				<li class="header__menu_item"><a href="#" class="header__menu_link">Download</a></li>
-				<li class="header__menu_item"><a href="#" class="header__menu_link">Contact</a></li>
+				<li class="header__menu_item"><a href="#features" class="header__menu_link">Features</a></li>
+				<li class="header__menu_item"><a href="#gallery" class="header__menu_link">Gallery</a></li>
+				<li class="header__menu_item"><a href="#video" class="header__menu_link">Video</a></li>
+				<li class="header__menu_item"><a href="#prices" class="header__menu_link">Prices</a></li>
+				<li class="header__menu_item"><a href="#testimonials" class="header__menu_link">Testimonials</a></li>
+				<li class="header__menu_item"><a href="#download" class="header__menu_link">Download</a></li>
+				<li class="header__menu_item"><a href="#contact" class="header__menu_link">Contact</a></li>
 		   	</ul>
 		</div>
+
    		<div class="header__slider">
-			<div class="header__slider_content">
-				<h1>Simple, Beautiful<span> and Amazing</span></h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhouncus sem.</p>
-			</div>
-			<div class="header__slider_button header__slider_button_down">
-				<a href="#">Download</a>
-			</div>
-			<div class="header__slider_button header__slider_button_learn">
-				<a href="#">Learn more</a>
-			</div>
-			<div class="header__slider_availability">
-				<p class="header__slider_available">Available on :</p>
-				<div class="header__slider_available_button">
-					<a href="#"><img src="img/icon_apple.png" alt="icon apple"></a>
+			
+			<div class="header__slider_content-box">
+				<div class="header__slider_content">
+					<h1>Simple, Beautiful<span> and Amazing</span></h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhouncus sem.</p>
 				</div>
-				<div class="header__slider_available_button">
-					<a href="#"><img src="img/icon_android.png" alt="icon android"></a>
+				
+				<div class="header__slider_button slider__button-down">
+					<a href="#">Download</a>
+				</div>
+				<div class="header__slider_button slider__button-learn">
+					<a href="#">Learn more</a>
+				</div>
+				
+				<div class="header__slider_available">
+					<p class="header__slider_available_content">Available on :</p>
+					<div class="header__slider_available_button">
+						<a href="#"><img src="img/icon_apple.png" alt="icon apple"></a>
+					</div>
+					<div class="header__slider_available_button">
+						<a href="#"><img src="img/icon_android.png" alt="icon android"></a>
+					</div>
 				</div>
 			</div>
+			
 			<div class="header__slider_controls">
 				<div class="header__slider_controls_prev"><a href="#">&#10096;</a></div>
 				<div class="header__slider_controls_next"><a href="#">&#10097;</a></div>
@@ -70,36 +78,119 @@
 	</div>
 
 	<!-- Section Features -->
-	<div class="features">
-		
+	<div id="features" class="features">
+		<div class="features__title">
+			<h3>summarise the features</h3>
+			<p>summarise what your product is all about</p>
+		</div>
+
+		<div class="features__content">
+			<div class="features__content-box">
+				<a href="#" class="features__content_link">
+					<div class="features__content_img">
+						<img src="img/icon_attractive_layout.png" alt="Attractive Layout">
+					</div>
+					<h4 class="features__content-box_title">Attractive Layout</h4>
+					<p class="features__content-box_description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+				</a>
+			</div>
+			<div class="features__content-box">
+				<a href="#" class="features__content_link">
+					<div class="features__content_img">
+						<img src="img/icon_fresh_design.png" alt="Fresh Design">
+					</div>
+					<h4 class="features__content-box_title">Fresh Design</h4>
+					<p class="features__content-box_description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+				</a>
+			</div>
+			<div class="features__content-box">
+				<a href="#" class="features__content_link">
+					<div class="features__content_img">
+						<img src="img/icon_multipurpose.png" alt="Multipurpose">
+					</div>
+					<h4 class="features__content-box_title">Multipurpose</h4>
+					<p class="features__content-box_description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+				</a>	
+			</div>
+			<div class="features__content-box">
+				<a href="#" class="features__content_link">
+					<div class="features__content_img">
+						<img src="img/icon_easy_to_customize.png" alt="Easy to Customize">
+					</div>
+					<h4 class="features__content-box_title">Easy to Customize</h4>
+					<p class="features__content-box_description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+				</a>
+			</div>
+		</div>
 	</div>
 
 	<!-- Section Gallery -->
-	<div class="gallery">
-		
+	<div id="gallery" class="gallery">
+		<div class="gallery__title">
+			<h3>show the gallery</h3>
+			<p>summarise what your product is all about  copy</p>
+		</div>
+		<div class="gallery__content">
+			<div class="gallery__item">
+				<a href="#" class="gallery__content_link">
+					<div class="gallery__item_image">
+						<img src="img/gallery_item_img_active.png" alt="Item image" />
+						<h4 class="gallery__item_img_title">Screen Shot #1</h4>
+					</div>
+				</a>
+					<p class="gallery__item_text">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+			</div>
+			<div class="gallery__item">
+				<a href="#" class="gallery__content_link">
+					<div class="gallery__item_image">
+						<img src="img/gallery_item_img.png" alt="Item image" />
+						<h4 class="gallery__item_img_title">Screen Shot #2</h4>
+					</div>
+				</a>
+					<p class="gallery__item_text">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+			</div>
+			<div class="gallery__item">
+				<a href="#" class="gallery__content_link">
+					<div class="gallery__item_image">
+						<img src="img/gallery_item_img.png" alt="Item image" />
+						<h4 class="gallery__item_img_title">Screen Shot #3</h4>
+					</div>
+				</a>
+					<p class="gallery__item_text">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+			</div>
+			<div class="gallery__item">
+				<a href="#" class="gallery__content_link">
+					<div class="gallery__item_image">
+						<img src="img/gallery_item_img.png" alt="Item image" />
+						<h4 class="gallery__item_img_title">Screen Shot #4</h4>
+					</div>
+				</a>
+					<p class="gallery__item_text">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+			</div>
+		</div>
 	</div>
 
 	<!-- Section Video -->
-	<div class="video">
+	<div id="video" class="video">
 		
 	</div>
 	<!-- Section Prices -->
-	<div class="prices">
+	<div id="prices" class="prices">
 		
 	</div>
 
 	<!-- Section Testimonials -->
-	<div class="testimonials">
+	<div id="testimonials" class="testimonials">
 		
 	</div>
 	
 	<!-- Section Download -->
-	<div class="download">
+	<div id="download" class="download">
 		
 	</div>
 	
 	<!-- Section Contact -->
-	<div class="contact">
+	<div id="contact" class="contact">
 		
 	</div>
 
