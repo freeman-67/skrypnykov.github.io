@@ -442,3 +442,98 @@ body {
 	text-align: left;
 	line-height: 1.4;
 }
+/* Section Prices */
+
+.prices{
+	background-color: rgba(239,239,239,0.3);
+	padding: 60px 0 25px;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+}
+.prices::after {
+    content: "";
+    background: rgba(204,204,204,0.2);
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.prices__title {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.prices__title h3 {
+	font-size: 2.3em;
+	font-weight: bold;
+	color: #333;
+}
+.prices__title p {
+	margin: 0;
+	font-size: 1.25em;
+	color: #aaa;
+}
+
+.prices__content {
+	text-align: center;
+}
+.prices__item {
+	border: 1px solid #ccc;
+	margin: 15px;
+	text-align: center;
+	display: inline-block;
+	width: 300px;
+	color: #ccc;
+}
+.prices__item input {
+	padding: 14px 40px;
+	font-size: 1em;
+	color: white;
+	border: none;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	background: #ccc;
+}
+.prices__item_title {
+	text-transform: uppercase;
+	margin: 25px 0;
+}
+.prices__item_title h4 {
+	font-weight: 700;
+}
+.prices__item_cost {
+	margin: 0 0 20px;
+	padding: 10px 0;
+	display: block;
+	background: #ccc;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 5em;
+	font-weight: 700;
+	color: white;
+}
+.prices__item_case {
+	list-style-type: none;
+	padding: 0;
+	font-size: 1.2em;
+	line-height: 2;
+	margin-bottom: 25px;
+}
+
+.package__basic .prices__item_cost,
+.package__basic input {
+	background-color: #99cc66;
+}
+.package__prof .prices__item_cost,
+.package__prof input{
+	background-color: #33ccff;
+}
+.package__advanced .prices__item_cost,
+.package__advanced input{
+	background-color: #ff6600;
+}
+.prices__item.package__active {
+	width: 360px;
+	color: #33ccff;
+}
+.package__active .prices__item_title h4 {
+	font-size: 1.3em;
+}
