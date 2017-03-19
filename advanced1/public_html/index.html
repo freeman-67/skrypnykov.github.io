@@ -14,7 +14,7 @@
 	<script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
 	<script type="text/javascript">
 		$(function(){
-			$.pixlayout({clip: true, src: "_bazinger.png", show:true, center:true, top:0, left:0, pervious: false});
+			$.pixlayout({clip: true, src: "bazinger.png", show:true, center:true, top:0, left:0, pervious: false});
 		}); 
 	</script>
 
@@ -135,6 +135,7 @@
 				<a href="#" class="gallery__content_link">
 					<div class="gallery__item_image">
 						<img src="img/gallery_item_img_active.png" alt="Item image" />
+						<i class="gallery__item_image_plus fa fa-plus fa-lg" aria-hidden="true"></i>
 						<h4 class="gallery__item_img_title">Screen Shot #1</h4>
 					</div>
 				</a>
@@ -172,7 +173,14 @@
 
 	<!-- Section Video -->
 	<div id="video" class="video">
-		
+		<div class="video__button">
+			<a href="#" class="video__button_link"><img class="video__button_img" src="img/video_button.png" alt="Video button"></a>
+		</div>
+		<div class="video__content">
+			<h3>Watch the best Technology in <span>Action</span></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+		</div>
+
 	</div>
 	<!-- Section Prices -->
 	<div id="prices" class="prices">
