@@ -181,7 +181,8 @@ body{
 	left: 13px;
 	right: 0;
 	bottom: 0;
-	margin: 0 auto 90px;
+	margin: 0 auto;
+	padding-bottom: 90px;
 }
 .pricing__price-list_active,
 .pricing__price-list_left,
