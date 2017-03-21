@@ -213,15 +213,15 @@ body {
 .pricing__price-list_left h3,
 .pricing__price-list_right h3 {
 	font-size: 1.5em;
-	font-weight: 400;
+	font-family: 'FuturaBT Book';
 	margin: 20px 0 10px;
 }
 .pricing__price-list_header h2 {
-	font-weight: 700;
+	font-family: 'FuturaBT Demi';
 	color: white;
 }
 .pricing__price-list_active .pricing__price-list_header {
-	padding: 16px 0;
+	padding: 18px 0;
 	background-color: #EE822A;
 }
 .pricing__price-list_header {
@@ -234,16 +234,15 @@ body {
 	background-color: #1cb79a;
 }
 .pricing__price-list_price {
+	font-family: 'FuturaBT Bold';
 	color: #364A5B;
 }
 .pricing__price-list_numeral { 
 	font-size: 4em;
-	font-weight: 700;
  }
 .pricing__price-list_currency,
 .pricing__price-list_time {
-	position: relative;	
-	font-weight: 500;
+	position: relative;
 }
 .pricing__price-list_currency {
 	top: -40px;
@@ -346,6 +345,7 @@ body {
 	float: left;
 	width: 360px;
 	min-height: 100px;
+	font-family: 'Open Sans', sans-serif;
 	background-color: #f8f8ff;
 	overflow: hidden;
 	margin-left: 25px;
@@ -363,28 +363,28 @@ body {
 }
 .testimonials__box_header {
 	font-style: italic;
-	font-weight: 700;
+	font-weight: 600;
 	overflow: auto;
-	margin: 0 10px;
+	margin: 0 15px;
 	border-bottom: 2px dotted #ccc;
 	color: #3271A9;	
 }
 .testimonials__box_name {
 	float: left;
-	margin: 15px 0;
+	margin: 10px 0;
 }
 .testimonials__box_name::before {
 	content: "- ";
 }
 .testimonials__box_customer {
    	float: right;
-   	margin: 10px;
+   	margin: 10px 10px;
 }
 .testimonials__box_text {
-	font-family: 'Roboto', sans-serif;
+	margin: 10px 16px;
+	font-size: 13px;
+	line-height: 1.6;
 	color: #888;
-	font-size: 14px;
-	margin: 5px 12px;
 }
 
 /* Footer section */
