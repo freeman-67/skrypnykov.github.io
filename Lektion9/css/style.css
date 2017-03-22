@@ -9,11 +9,13 @@ body{
 .container {
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 0;
 }
 .container__title {
 	color: #e4551d;
 	margin: 20px;
+}
+.comment {
+	font-size: 0;
 }
 .comment__content {
 	display: inline-block;
