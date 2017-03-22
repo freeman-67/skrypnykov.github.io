@@ -12,7 +12,7 @@ body{
 }
 .container__title {
 	color: #e4551d;
-	margin: 20px;
+	margin: 20px 0 20px 70px;
 }
 .comment {
 	font-size: 0;
@@ -35,7 +35,7 @@ body{
 }
 .comment__content_box {
 	padding-left: 115px;
-	text-align: justify;
+
 }
 .comment__content_title {
 	padding-bottom: 5px;
@@ -48,6 +48,7 @@ body{
 	color: #959595;
 	font-weight: 400;
 	line-height: 1.8;
+	text-align: justify;
 }
 .comment__content_text span a {
 	color: #e4551d;
