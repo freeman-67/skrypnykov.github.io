@@ -33,6 +33,7 @@ body{
 }
 .comment__content_box {
 	padding-left: 115px;
+	text-align: justify;
 }
 .comment__content_title {
 	padding-bottom: 5px;
