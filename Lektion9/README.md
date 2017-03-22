@@ -4,6 +4,8 @@
 * [try it](http://codepen.io/puzankov/pen/xGGGRG?editors=100)
 * [read it](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
 
+<http://htmlbook.ru/samlayout/internet-explorer/uslovnye-kommentarii>  
+
 **-webkit**
 * [-webkit-background-clip: text](http://codepen.io/puzankov/pen/rVVVOg?editors=110)
 * [cross-fade](http://codepen.io/puzankov/pen/eNNNNX?editors=110)
