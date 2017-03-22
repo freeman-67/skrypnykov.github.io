@@ -16,7 +16,8 @@
 
 [webkit css props](http://css-infos.net/properties/webkit)  
 
-<http://caniuse.com/>
+<http://caniuse.com/>  
+<http://lorempixel.com/>  
 
 **Practice**
 
