@@ -22,3 +22,5 @@
 **Practice**
 
 ![Practice.PNG](Practice.PNG)  
+
+Решение: <https://codepen.io/puzankov/pen/ojgZew>
