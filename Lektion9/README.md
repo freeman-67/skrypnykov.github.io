@@ -24,3 +24,5 @@
 ![Practice.PNG](Practice.PNG)  
 
 Решение: <https://codepen.io/puzankov/pen/ojgZew>
+
+Дополнительные материалы <http://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html>
