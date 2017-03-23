@@ -21,6 +21,7 @@ body{
 	display: inline-block;
 	width: calc(50% - 20px);
 	vertical-align: top;
+	min-height: 95px;
 }
 .comment__content:nth-child(odd) {
 	margin: 0 20px 30px 0;
@@ -35,7 +36,6 @@ body{
 }
 .comment__content_box {
 	padding-left: 115px;
-
 }
 .comment__content_title {
 	padding-bottom: 5px;
