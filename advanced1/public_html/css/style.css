@@ -35,7 +35,7 @@ body {
 	background-image: url(../img/header_bg.png);
 	background-position: top center;
 	background-size: cover;
-	height: 800px; /* убрать позже */
+	height: 800px;
 	position: relative;
 	z-index: 1;
 }
@@ -100,7 +100,6 @@ body {
 	padding-top: 37px;
 	border-top: 3px solid #33ccff;
 }
-
 /* Slider */
 .header__slider {
 	font-family: 'Lato', sans-serif;
@@ -131,7 +130,6 @@ body {
 }
 .header__slider_text p {
 	letter-spacing: 0.45px;
-	-font-size: 1.1em;
 	line-height: 1.4;
 	margin-top: 18px;
 }
@@ -398,7 +396,6 @@ body {
 	padding: 13px 77px;
 	position: absolute;
 	bottom: 4px;
-
 }
 .gallery__item_text {
 	margin: 0 0 65px;
@@ -438,14 +435,12 @@ body {
 .video__button_link {
 	display: inline-block;
 }
-
 .video__content {
 	text-align: center;
 	color: white;
 	padding-top: 260px;
 	padding-bottom: 120px;
 }
-
 .video__content h3 {
 	font-weight: 300;
 	font-size: 3em;
@@ -453,7 +448,6 @@ body {
 .video__content h3 span {
 	font-weight: 700;
 }
-
 .video__content p {
 	margin-top: 10px; 
 	padding: 10px 275px;
@@ -490,7 +484,6 @@ body {
 	font-size: 1.25em;
 	color: #aaa;
 }
-
 .prices__content {
 	text-align: center;
 	margin-bottom: 35px;
@@ -521,7 +514,6 @@ body {
 	color: white;
 	text-shadow: 1px 1px 1px black;
 }
-
 .prices__item_case {
 	margin: 20px 0 25px;
 	padding: 0;
@@ -600,7 +592,6 @@ body {
 	overflow: auto;
 	margin: 0 auto;
 	padding-bottom: 40px;
-
 	color: #33ccff;
 	font-size: 0.8em;
 	letter-spacing: 0.5px;
@@ -619,11 +610,9 @@ body {
 	padding-right: 15px;
 	text-align: right;
 }
-
 .testimonials__item_author {
 	font-style: italic;
 }
-
 .testimonials__item_slider_controls { 
 	text-align: center;
 	margin: 0;
@@ -640,6 +629,7 @@ body {
 	background: #33ccff;
 }
 
+/* Section Download */
 .download {
 	background-color: rgba(0,0,0,0.7);
 	padding-top: 25px;
@@ -673,9 +663,7 @@ body {
 	border: none;
 	border-bottom: 3px solid #007db1;
 	margin-bottom: 30px;
-	
 }
-
 .download__button a {
 	display: inline-block;
 	padding: 20px 30px;
@@ -685,10 +673,118 @@ body {
 	font-weight: bold;
 	color: rgba(0,0,0,1);
 }
-
 .download__button:hover {
 	border-bottom-color: transparent;
 }
 .download__button:hover a {
-	text-shadow: 0 .1px .1px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 .5px .5px rgba(255,255,255,.5);
+}
+
+/* Section Contact */
+.contact {
+	background-image: url(../img/contact_map.png);
+	background-position: top center;
+	background-size: cover;
+	height: 680px;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+}
+.contact__form {
+	width: 320px;
+	height: 460px;
+	background-color: rgba(51,204,255,.6);
+	border-radius: 10px;
+	box-shadow: 0 0 2px rgba(180, 180, 180, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.contact__form_title {
+	margin: 20px;
+	font-size: 2.2em;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+}
+.contact__form input {
+	margin-bottom: 10px;
+	padding: 10px 50px;
+	border-radius: 5px;
+}
+.contact__form input[placeholder] {
+	text-align: center;
+	color: #ccc;
+}
+.contact__form textarea {
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: #ccc;
+	box-shadow: 2px 2px 2px rgba(204, 204, 204, 1) inset; 
+}
+
+.contact__form input[type="submit"] {
+	padding: 15px 75px;
+	background-color: rgba(51,51,51,1);
+	border: none;
+	border-bottom: 3px solid #000;
+	color: #33ccff;
+	font-size: .9em;
+}
+
+.contact__form input[type="submit"]:hover {
+	border-bottom-color: transparent;
+}
+.contact__form input[value="Send"]:hover {
+	text-shadow: 0 .5px .5px rgba(255,255,255,.5);
+}
+
+/* Footer */
+.footer {
+	background-color: rgba(0,0,0,0.7);
+	height: 110px;
+	font-family: 'Lato', sans-serif;
+}
+
+.footer .container__content {
+	overflow: auto;
+	padding-top: 25px;
+}
+.footer__copyright {
+	-margin: 0;
+	float: left;
+	color: #ccc;
+}
+.footer__copyright span {
+	padding: 0 5px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.footer__menu {
+	display: inline-block;
+	float: right;
+}
+
+.footer__menu li {
+	display: inline-block;
+	padding-right: 5px;
+	border-right: 1px solid #ccc;
+	
+}
+.footer__menu li a {
+	text-decoration: none;
+	color: #ccc;
+}
+.footer__menu li a:hover {
+	text-decoration: underline;
+}
+
+.footer__menu li:last-child {
+	border: none;
 }
