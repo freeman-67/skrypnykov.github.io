@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'FuturaBT Book';
+    src: url('../fonts/futurabookc-webfont.woff2') format('woff2'),
+         url('../fonts/futurabookc-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FuturaBT Demi';
+    src: url('../fonts/futurademic-webfont.woff2') format('woff2'),
+         url('../fonts/futurademic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FuturaBT Bold';
+    src: url('../fonts/futurafuturisc-bold-webfont.woff2') format('woff2'),
+         url('../fonts/futurafuturisc-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face { 
+	font-family: "Calibri-Bold"; 
+	src: url("../fonts/Calibri-Bold.eot"); 
+	src: url("../fonts/Calibri-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibri-Bold.woff2") format("woff2"), url("../fonts/Calibri-Bold.woff") format("woff"), url("../fonts/Calibri-Bold.ttf") format("truetype"); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+@font-face { 
+	font-family: "Calibri-BoldItalic"; 
+	src: url("../fonts/Calibri-BoldItalic.eot"); 
+	src: url("../fonts/Calibri-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibri-BoldItalic.woff2") format("woff2"), url("../fonts/Calibri-BoldItalic.woff") format("woff"), url("../fonts/Calibri-BoldItalic.ttf") format("truetype"); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+@font-face { 
+	font-family: "Calibri-Italic"; 
+	src: url("../fonts/Calibri-Italic.eot"); 
+	src: url("../fonts/Calibri-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibri-Italic.woff2") format("woff2"), url("../fonts/Calibri-Italic.woff") format("woff"), url("../fonts/Calibri-Italic.ttf") format("truetype"); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+@font-face { 
+	font-family: "Calibri"; 
+	src: url("../fonts/Calibri.eot"); 
+	src: url("../fonts/Calibri.eot?#iefix") format("embedded-opentype"), url("../fonts/Calibri.woff2") format("woff2"), url("../fonts/Calibri.woff") format("woff"), url("../fonts/Calibri.ttf") format("truetype"); 
+	font-weight: normal; 
+	font-style: normal; 
+}
