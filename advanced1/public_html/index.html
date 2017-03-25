@@ -10,14 +10,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lato:100,300,400,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
-	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$.pixlayout({clip: true, src: "_bazinger.png", show:true, center:true, top:0, left:0, pervious: false});
-		}); 
-	</script>
-
 </head>
 <body>
 	<!-- Section Header -->
@@ -194,7 +186,6 @@
 			<p>summarise what your product is all about</p>
 		</div>
 		<div class="prices__content">
-
 			<div class="prices__item package__basic">
 				<div class="prices__item_title">
 					<h4>Basic package</h4>
@@ -209,7 +200,6 @@
 					<a class="prices__item_button_link" href="#">PURCHASE</a>
 				</div>
 			</div>
-
 			<div class="prices__item package__prof">
 				<div class="prices__item_title">
 					<h4>Professional package</h4>
@@ -225,7 +215,6 @@
 					<a class="prices__item_button_link" href="#">PURCHASE</a>
 				</div>
 			</div>
-
 			<div class="prices__item package__advanced">
 				<div class="prices__item_title">
 					<h4>Advanced package</h4>
@@ -240,30 +229,30 @@
 					<a class="prices__item_button_link" href="#">PURCHASE</a>
 				</div>
 			</div>
-
 		</div>
-
 	</div>
 
 	<!-- Section Testimonials -->
 	<div id="testimonials" class="testimonials">
 		<div class="container__content">
-			<div class="testimonials__title">
-				<h3>Testimonials</h3>
-			</div>
 			<div class="testimonials__content">
-				<div class="testimonials__item">
-					<img class="testimonials__item_img" src="img/testimonials_img.png" alt="customer">
-					<p class="testimonials__item_comment">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesent lobortis lectus eget libero blandit venenatis. In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.
-					</p>
-					<p class="testimonials__item_author">John Doe<br/><span>from some company</span></p>
+				<div class="testimonials__title">
+					<h3>Testimonials</h3>
 				</div>
-				<ul class="testimonials__item_slider_controls">
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
+				<div class="testimonials__content">
+					<div class="testimonials__item">
+						<img class="testimonials__item_img" src="img/testimonials_img.png" alt="customer">
+						<p class="testimonials__item_comment">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesent lobortis lectus eget libero blandit venenatis. In blandit tortor vel congue malesuada. Suspendisse molestie lobortis lorem dignissim pretium.
+						</p>
+						<p class="testimonials__item_author">John Doe<br/><span>from some company</span></p>
+					</div>
+					<ul class="testimonials__item_slider_controls">
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -271,11 +260,13 @@
 	<!-- Section Download -->
 	<div id="download" class="download">
 		<div class="container__content">
-			<div class="download__title">
-				<h3>Do you Like this app?</h3>
-			</div>
-			<div class="download__button">
-				<a href="#">Download Now</a>
+			<div class="download__content">
+				<div class="download__title">
+					<h3>Do you Like this app?</h3>
+				</div>
+				<div class="download__button">
+					<a href="#">Download Now</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -298,11 +289,13 @@
 	<!-- Footer -->
 	<div id="footer" class="footer">
 		<div class="container__content">
-			<p class="footer__copyright">Copyright &#169; 2017 <span> bazinger </span> All Rights Reserved</p>
-			<ul class="footer__menu">
-				<li><a href="#">Terms of Service</a></li>
-				<li><a href="#">Privacy Policy</a></li>
-			</ul>	
+			<div class="footer__content">
+				<p class="footer__copyright">Copyright &#169; 2017 &#124; bazinger &#124; All Rights Reserved</p>
+				<ul class="footer__menu">
+					<li><a href="#">Terms of Service</a> &#124;</li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>	
+			</div>
 		</div>
 	</div>
 

@@ -150,11 +150,20 @@ body {
 }
 .slider__button-learn {
 	background-color: #33ccff;
-	border-color: #33ccff;
+	
+	border: none;
+	border-bottom: 3px solid #007db1;
 }
-.header__slider_button:hover {
+.slider__button-learn a {
+	padding: 21px 46px;
+}
+.slider__button-down:hover {
 	text-shadow: 0 0 12px rgba(180, 180, 180, 0.9);
 	box-shadow: 0 0 12px rgba(180, 180, 180, 0.9);
+}
+.slider__button-learn:hover {
+	border-bottom-color: transparent;
+	text-shadow: 0 .5px .5px rgba(255,255,255,.5);
 }
 .header__slider_available_content {
 	display: inline-block;
@@ -551,29 +560,15 @@ body {
 .package__advanced .prices__item_button {
 	background-color: #ff6600;
 }
-/*
-.prices__item .package__active {
-	width: 360px;
-	color: #33ccff;
-}
-.package__active .prices__item_title h4 {
-	font-size: 1.3em;
-}*/
 
 /* Section Testimonials */
 .testimonials {
 	background-color: rgba(239,239,239,0.3);
 	padding-top: 35px;
-	position: relative;
-	font-family: 'Lato', sans-serif;
 }
-.testimonials::after {
-    content: "";
-    background: rgba(204,204,204,0.2);
-    height: 1px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+.testimonials__content {
+	padding-bottom: 20px;
+	font-family: 'Lato', sans-serif;
 }
 .testimonials__title {
 	text-align: center;
@@ -583,9 +578,6 @@ body {
 	font-size: 2.3em;
 	font-weight: bold;
 	color: #333;
-}
-.testimonials__content {
-	padding-bottom: 40px;
 }
 .testimonials__item {
 	width: 43%;
@@ -624,7 +616,6 @@ body {
 	padding: 3px 25px;
 	margin-right: 5px;
 }
-
 .testimonials__item_slider_controls li:hover{
 	background: #33ccff;
 }
@@ -634,21 +625,12 @@ body {
 	background-color: rgba(0,0,0,0.7);
 	padding-top: 25px;
 	position: relative;
+}
+.download__content {
+	text-align: center;
 	font-family: 'Lato', sans-serif;
 }
-.download::after {
-    content: "";
-    background: rgba(204,204,204,0.2);
-    height: 1px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-.container__content {
-	text-align: center;
-}
 .download__title {
-	text-align: center;
 	margin-bottom: 30px;
 }
 .download__title h3 {
@@ -687,7 +669,6 @@ body {
 	background-size: cover;
 	height: 680px;
 	position: relative;
-	font-family: 'Lato', sans-serif;
 }
 .contact__form {
 	width: 320px;
@@ -701,8 +682,9 @@ body {
 	right: 0;
 	bottom: 0;
 	margin: auto;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
 }
-
 .contact__form_title {
 	margin: 20px;
 	font-size: 2.2em;
@@ -710,72 +692,64 @@ body {
 	font-weight: bold;
 	letter-spacing: 1.1px;
 }
-.contact__form input {
-	margin-bottom: 10px;
-	padding: 10px 50px;
-	border-radius: 5px;
-}
-.contact__form input[placeholder] {
-	text-align: center;
-	color: #ccc;
-}
-.contact__form textarea {
+#contact input {
 	margin-bottom: 15px;
-	padding: 10px;
 	border-radius: 5px;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	color: #ccc;
-	box-shadow: 2px 2px 2px rgba(204, 204, 204, 1) inset; 
 }
-
-.contact__form input[type="submit"] {
-	padding: 15px 75px;
+#contact input,
+#contact textarea {
+	width: 260px;
+	padding: 8px 5px;
+}
+#contact input[placeholder],
+#contact textarea[placeholder] {
+	text-align: center;
+}
+#contact textarea {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(204, 204, 204, 1) inset;
+	font-family: 'Lato', sans-serif;
+}
+#contact input[type="submit"] {
+	padding: 15px 0;
+	width: 190px;
 	background-color: rgba(51,51,51,1);
 	border: none;
 	border-bottom: 3px solid #000;
 	color: #33ccff;
 	font-size: .9em;
+	cursor: pointer;
 }
-
-.contact__form input[type="submit"]:hover {
+#contact input[type="submit"]:hover {
 	border-bottom-color: transparent;
 }
-.contact__form input[value="Send"]:hover {
+#contact input[value="Send"]:hover {
 	text-shadow: 0 .5px .5px rgba(255,255,255,.5);
 }
 
 /* Footer */
 .footer {
 	background-color: rgba(0,0,0,0.7);
-	height: 110px;
-	font-family: 'Lato', sans-serif;
 }
-
-.footer .container__content {
+.footer__content {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
 	overflow: auto;
-	padding-top: 25px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 .footer__copyright {
-	-margin: 0;
 	float: left;
 	color: #ccc;
 }
-.footer__copyright span {
-	padding: 0 5px;
-	border-left: 1px solid #ccc;
-	border-right: 1px solid #ccc;
-}
 .footer__menu {
-	display: inline-block;
 	float: right;
+	color: #ccc;
 }
-
 .footer__menu li {
 	display: inline-block;
-	padding-right: 5px;
-	border-right: 1px solid #ccc;
-	
 }
 .footer__menu li a {
 	text-decoration: none;
@@ -783,8 +757,4 @@ body {
 }
 .footer__menu li a:hover {
 	text-decoration: underline;
-}
-
-.footer__menu li:last-child {
-	border: none;
 }
