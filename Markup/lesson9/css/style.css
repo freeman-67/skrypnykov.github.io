@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 20px;
+}
+.container {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+.container__title {
+	color: #e4551d;
+	margin: 20px 0 20px 70px;
+}
+.comment {
+	word-spacing: -5px; 
+	/* убираем пробелы межды inline-block элементами, 
+	   как вариант font-size: 0;*/
+	display: table; /* лекарство для webkit */
+}
+.comment__content {
+	display: inline-block;
+	width: calc(50% - 20px);
+	vertical-align: top;
+	min-height: 95px;
+	word-spacing: normal; /* возвращаем интервал между словами */
+}
+.comment__content:nth-child(odd) {
+	margin: 0 20px 30px 0;
+}
+.comment__content:nth-child(even) {
+	margin: 0 0 30px 20px;
+}
+.comment__content_img {
+	float: left;
+	margin: 5px 30px 5px 0;
+	border-radius: 5px;
+}
+.comment__content_box {
+	padding-left: 115px;
+}
+.comment__content_title {
+	padding-bottom: 5px;
+	font-size: 22px;
+	color: #637f83;
+	font-weight: 700;
+}
+.comment__content_text {
+	font-size: 14px;
+	color: #959595;
+	font-weight: 400;
+	line-height: 1.8;
+	text-align: justify;
+}
+.comment__content_text span a {
+	color: #e4551d;
+	text-decoration: none;
+}
+.comment__content_text span a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}

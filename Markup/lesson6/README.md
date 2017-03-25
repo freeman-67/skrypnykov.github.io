@@ -1,4 +1,4 @@
-# Lektion6
+# Lesson 6
 
 **list-style-type (ul)**  
 <http://codepen.io/puzankov/pen/dobWze?editors=110>  

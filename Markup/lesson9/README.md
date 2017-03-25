@@ -1,4 +1,4 @@
-# Lektion9  
+# Lesson 9  
 
 **Conditional Comments**  
 * [try it](http://codepen.io/puzankov/pen/xGGGRG?editors=100)

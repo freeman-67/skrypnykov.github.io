@@ -1,4 +1,4 @@
-# Lektion3
+# Lesson 3
 
 <http://www.csszengarden.com/>  
 
