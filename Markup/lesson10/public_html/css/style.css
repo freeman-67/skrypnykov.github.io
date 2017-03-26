@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio {
+	width: 1150px;	
+	margin: 0 auto;
+	text-align: center;
+}
+
+.portfolio__header {
+	font-family: 'Lato', sans-serif;
+}
+.portfolio__header h2 {	
+	font-size: 41pt;
+	color: #333366;
+}
+.portfolio__header p {
+	font-size: 15pt;
+	color: #999;
+}
+
+.portfolio__images {
+	margin: 0;
+	padding: 0;
+}
+.portfolio__image_case {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.portfolio__image_case a {
+	display: inline-block;
+}
+
+.holder {
+	-background-color: #3399ff;
+}
+
+/*
+@media only screen and (max-width : 480px) {
+	.portfolio__images {
+		letter-spacing: -5px
+	}
+	.portfolio__image_case {
+		width: 50%;
+		letter-spacing: normal;
+	}
+}*/
