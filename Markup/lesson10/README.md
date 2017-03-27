@@ -24,3 +24,6 @@
 * слой в котором увеличенная фотография пока не верстаем
 
 ![lesson10.png](lesson10.png)
+
+
+Пример: <http://dbmast.ru/modalnye-vsplyvayushhie-okna-s-pomoshhyu-css3-bez-javascript>
