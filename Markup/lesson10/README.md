@@ -1,5 +1,8 @@
 # Lesson 10
 
+[Список кодов состояния HTTP](https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%B4%D0%BE%D0%B2_%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8F_HTTP)
+[List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
+
 ### Задание 1
 
 **Необходимо сверстать блок из макета: lesson10.psd**
