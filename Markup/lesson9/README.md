@@ -23,6 +23,6 @@
 
 ![Practice.PNG](Practice.PNG)  
 
-один из варианов решения: <https://codepen.io/puzankov/pen/ojgZew>
+один из вариантов решения: <https://codepen.io/puzankov/pen/ojgZew>
 
 Дополнительный материал <http://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html>
