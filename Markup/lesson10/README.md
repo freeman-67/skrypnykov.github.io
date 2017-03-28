@@ -28,6 +28,6 @@
 ![lesson10.png](lesson10.png)
 
 
-Пример: <http://dbmast.ru/modalnye-vsplyvayushhie-okna-s-pomoshhyu-css3-bez-javascript>
+Пример: <http://dbmast.ru/modalnye-vsplyvayushhie-okna-s-pomoshhyu-css3-bez-javascript>  
         <http://ruseller.com/lessons.php?id=1556&rub=2>  
         
