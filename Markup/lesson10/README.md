@@ -4,6 +4,8 @@
 [List of HTTP header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)  
 [HTTP cookie](https://en.wikipedia.org/wiki/HTTP_cookie#Secure_and_HttpOnly)  
 [Top 7 Myths about HTTPS ](http://blog.httpwatch.com/2011/01/28/top-7-myths-about-https/)  
+[Простым языком об HTTP](https://habrahabr.ru/post/215117/)  
+
 
 ### Задание 1
 
