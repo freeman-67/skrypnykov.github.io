@@ -29,5 +29,5 @@
 
 
 Пример: <http://dbmast.ru/modalnye-vsplyvayushhie-okna-s-pomoshhyu-css3-bez-javascript>  
-        <http://ruseller.com/lessons.php?id=1556&rub=2>  
+Еще пример: <http://ruseller.com/lessons.php?id=1556&rub=2>  
         
