@@ -83,7 +83,7 @@ body {
 }
 
 
-/* Preview */
+/* popup */
 .portfolio__preview_overlay {
 	position: fixed;
 	top: 0;
@@ -94,7 +94,7 @@ body {
 	display: none;
 	outline: none;
 	cursor: default;
-	z-index: 10;
+	z-index: 2;
 }
 .portfolio__preview_overlay:target {
 	display: block;
@@ -104,14 +104,14 @@ body {
 	top: -100%;
 	right: 0;
 	left: 50%;
-	z-index: 20;
+	z-index: 3;
 
 	width: 100%;
 	max-width: 1135px;
-	min-width: 320px;
+	min-width: 284px;
 	padding: 1px;
 	background-color: #999;
-	box-shadow: 0 3px 15px rgba(0,0,0,0.6);
+	box-shadow: 0 1px 15px rgba(0,0,0,0.6);
 
 	-webkit-transform: translate(-50%, -500%);
 	-ms-transform: translate(-50%, -500%);
@@ -130,7 +130,6 @@ body {
 	transform: translate(-50%, 0);
 	top: 20%;
 }
-
 .portfolio__preview_image_full {
 	width: 100%;
 }
@@ -145,7 +144,7 @@ body {
 	font-size: 11px;
 	line-height: 40px;
 	color: white;	
-	box-shadow: 0 0 5px rgba(0,0,0,0.6);
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
 	-webkit-transition: all ease .8s;
 	-moz-transition: all ease .8s;
 	-ms-transition: all ease .8s;
