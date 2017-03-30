@@ -17,5 +17,8 @@
 [Fontello - icon font generator](http://fontello.com/)  
 
 ![slide14.png](slide14.png)  
+
+[CSS-TRICKS](https://css-tricks.com/data-uris/)  
+
 ![slide15.png](slide15.png)  
 
