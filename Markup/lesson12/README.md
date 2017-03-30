@@ -2,8 +2,7 @@
 
 ## Слайды презентации
 
-![slide1.png](/slide/slide1.png)
-![slide1.jpg](slide/slide1.png)
+![slide1.PNG](slide/slide1.PNG)
 
 ## Полезные ссылки:  
 
