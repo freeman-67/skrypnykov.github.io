@@ -19,6 +19,7 @@
 ![slide14.png](slide14.png)  
 
 [CSS-TRICKS](https://css-tricks.com/data-uris/)  
+[ZorroSVG - Put a Mask on it](http://quasimondo.com/ZorroSVG/)  
 
 ![slide15.png](slide15.png)  
 
