@@ -29,7 +29,10 @@
 ![preview.png](preview.png)
 
 **Создаем модальное окно на HTML5 и CSS3**  
-<http://ruseller.com/lessons.php?id=1556&rub=2>
+<http://ruseller.com/lessons.php?id=1556&rub=2>  
+
+**Зачем нужен псевдо класс :target CSS3**  
+<http://ruseller.com/lessons.php?rub=2&id=924>
 
 **Layout Generators**  
 <http://www.pagecolumn.com/index.htm>  
