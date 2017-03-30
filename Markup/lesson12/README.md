@@ -4,7 +4,7 @@
 
 ![slide/Слайд 1.PNG](slide/Слайд 1.PNG)  
 
-![slide\Слайд 1.png](slide\Слайд 1.png)
+![slide/Слайд 1.PNG](slide/Слайд 1.PNG)
 
 
 ## Полезные ссылки:  
