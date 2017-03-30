@@ -13,6 +13,9 @@
 ![slide11.png](slide11.png)  
 ![slide12.png](slide12.png)  
 ![slide13.png](slide13.png)  
+
+[Fontello - icon font generator](http://fontello.com/)  
+
 ![slide14.png](slide14.png)  
 ![slide15.png](slide15.png)  
 
