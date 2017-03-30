@@ -1,6 +1,10 @@
 # Lesson 12
 
-Полезные ссылки:
+## Слайды презентации
+
+
+
+## Полезные ссылки:  
 
 1. [Самые простые техники адаптивной верстки](http://habrahabr.ru/post/144003/)  
 2. [Адаптивный и мобильный дизайн с CSS3 Media Queries](http://habrahabr.ru/post/119127/)  
@@ -24,3 +28,4 @@
 20. [Bootstrap](http://getbootstrap.com/)  
 21. [pure.css](http://purecss.io/)  
 22. [30 CSS-фреймворков для адаптивного веб-дизайна](http://habrahabr.ru/post/156747/)  
+
