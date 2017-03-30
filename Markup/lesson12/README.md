@@ -6,6 +6,7 @@
 
 ![Слайд 1.PNG](/slide/Слайд 1.PNG)
 
+![preview.png](preview.png)
 
 ## Полезные ссылки:  
 
