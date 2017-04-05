@@ -12,7 +12,7 @@
 	<script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
 	<script type="text/javascript">
 		$(function(){
-			$.pixlayout({clip: true, src: "_index2.png", show:true, center:true, top:0, left:0, pervious: false});
+			$.pixlayout({clip: true, src: "index2.png", show:true, center:true, top:0, left:0, pervious: false});
 		}); 
 	</script>
 
@@ -220,40 +220,89 @@
 	<!-- content line2 -->
 	<div class="line-two">
 		<h2 class="line-two__title">Ta<span class="highlighted">bbb</span>s get your content in line</h2>
+		<div class="line-two__wrap"></div>
+			<div class="tabbed-area tabs-nav-fix">
+                <div class="tabbed-area__box-wrap">
+                   	<div id="box-one" class="tabbed-area__box-wrap_box">
+              			<h5 class="tabbed-area__box-wrap_box_title">Your content can be <span class="highlighted">highlighted</span> like this.</h5>
 
-		<div class="tabbed-area">
+						<div class="tabbed-area__box_content">
+							<ul class="tabbed-area__box_content_list">
+								<li class="tabbed-area__box_content_list_item">
+									<a class="tabbed-area__box_content_list_item_link" href="">Magna Porta</a>
+								</li>
+								<li class="tabbed-area__box_content_list_item">
+									<a class="tabbed-area__box_content_list_item_link" href="">Cras Amet Pharetra</a>
+								</li>
+								<li class="tabbed-area__box_content_list_item">
+									<a class="tabbed-area__box_content_list_item_link" href="">Ornare Dolor Pharetra</a>
+								</li>
+								<li class="tabbed-area__box_content_list_item">
+									<a class="tabbed-area__box_content_list_item_link" href="">Nibh Sit Elit</a>
+								</li>
+								<li class="tabbed-area__box_content_list_item">
+									<a class="tabbed-area__box_content_list_item_link" href="">Venenatis Tortor Aenean</a>
+								</li>
+							</ul>
+							<div class="tabbed-area__box_image">
+								<img src="img/tabbed-area__pic1.jpg" alt="" class="tabbed-area__box_image_img">
+								<h6 class="tabbed-area__box_image_title">Type a Title</h6>
+								<p class="tabbed-area__box_image_description">Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet magna.</p>	
+							</div>
+							<div class="tabbed-area__box_image">
+								<img src="img/tabbed-area__pic2.jpg" alt="" class="tabbed-area__box_image_img">
+								<h6 class="tabbed-area__box_image_title">Type a Title</h6>
+								<p class="tabbed-area__box_image_description">Donec id elit non mi porta gravida at eget metus.</p>	
+							</div>
+						</div>
+                        
+                        <ul class="tabbed-area__box-wrap_tabs group">
+                            <li class="tabbed-area__box-wrap_tabs_item tabs_active">
+                            	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-one">Tabbb One</a>
+                            </li>
+                            <li class="tabbed-area__box-wrap_tabs_item">
+                            	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-two">Tabbb Two</a>
+                            </li>
+                            <li class="tabbed-area__box-wrap_tabs_item">
+                            	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-three">Tabbb Three</a>
+                            </li>
+                        </ul>
+                	</div>
+                	<div id="box-two" class="tabbed-area__box-wrap_box">
+         				<h5 class="tabbed-area__box-wrap_box_title">The Content Ta<span class="highlighted">bbb</span> Two</h5>
 
-			<ul class="tabbed-area__tabs tabbed-area__group">
-			    <li class="tabbed-area__tabs_box">
-			    	<a href="#tabbed-area__tabs_box-one" class="tabbed-area__tabs_box_link">Tab 1</a>
-			    </li>
-			    <li class="tabbed-area__tabs_box">
-			    	<a href="#tabbed-area__tabs_box-two" class="tabbed-area__tabs_box_link">Tab 2</a>
-			    </li>
-			    <li class="tabbed-area__tabs_box">
-			    	<a href="#tabbed-area__tabs_box-three" class="tabbed-area__tabs_box_link">Tab 3</a>
-			    </li>
-			</ul>
-			
-			<div class="tabbed-area__box-wrap">
-				<div class="tabbed-area__box-wrap_item" id="tabbed-area__tabs_box-one">
-					<h5>Your content can be <span class="highlighted">highlighted</span> like this.</h5>
-				  	<!-- box two content -->
-				</div>
-				
-				<div class="tabbed-area__box-wrap_item" id="tabbed-area__tabs_box-two">
-					<h5>The Content Ta<span class="highlighted">bbb</span> Two</h5>
-				  	<!-- box two content -->
-				</div>
-				
-				<div class="tabbed-area__box-wrap_item" id="tabbed-area__tabs_box-three">
-					<h5>The Content Ta<span class="highlighted">bbb</span> Three.</h5>
-				  	<!-- box two content -->
-				</div>
-			</div>
 
+                	    <ul class="tabbed-area__box-wrap_tabs group">
+                            <li class="tabbed-area__box-wrap_tabs_item">
+                            	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-one">Tabbb One</a>
+                            </li>
+                            <li class="tabbed-area__box-wrap_tabs_item tabs_active">
+                            	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-two">Tabbb Two</a>
+                            </li>
+                            <li class="tabbed-area__box-wrap_tabs_item">
+                            	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-three">Tabbb Three</a>
+                            </li>
+                        </ul>
+                	</div>
+                	<div id="box-three" class="tabbed-area__box-wrap_box">
+						<h5 class="tabbed-area__box-wrap_box_title">The Content Ta<span class="highlighted">bbb</span> Three</h5>
+
+
+                	    <ul class="tabbed-area__box-wrap_tabs group">
+                            <li class="tabbed-area__box-wrap_tabs_item">
+                            	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-one">Tabbb One</a>
+                            </li>
+                            <li class="tabbed-area__box-wrap_tabs_item">
+                            	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-two">Tabbb Two</a>
+                            </li>
+                            <li class="tabbed-area__box-wrap_tabs_item tabs_active">
+                            	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-three">Tabbb Three</a>
+                            </li>
+                        </ul>
+                	</div>
+                </div>
+    		</div>
 		</div>
-
 	</div>
 	<!-- end content line2 -->
 
