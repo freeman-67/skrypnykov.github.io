@@ -234,6 +234,13 @@ body{
 	border-radius: 3px;
 	font-size: 24px;
 }
+.slider__window_controls_link {
+	color: rgba(255,255,255,.5);
+}
+.slider__window_controls_link:hover {
+	color: rgba(255,255,255,1);
+}
+
 /* description */
 .slider__description {
 	display: inline-block;	
@@ -319,9 +326,6 @@ body{
 .slider__view_button_hover:hover {
 	visibility: visible;		
 }
-/*.content__line_one {
-	clear: both;
-}*/
 
 /* sprite */
 .sprite {
