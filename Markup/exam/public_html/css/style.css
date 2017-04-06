@@ -672,6 +672,7 @@ body{
 	border-bottom: 1px solid #f6f6f6;
 	line-height: 1.85;
 }
+.latest-articles__link,
 .single-menu__list_item_link,
 .second-menu__list_item_link {
 	text-decoration: none;
@@ -692,7 +693,6 @@ body{
 	position: relative;
 	margin-top: 10px;
 	padding-left: 30px;
-	-padding-bottom: 20px;
 	border-bottom: 1px solid #f6f6f6;
 	height: 50px;
 }
@@ -707,11 +707,11 @@ body{
     left: 0px;
 }
 .latest-articles__box_title {
-	font-size: .7em;
+	font-size: .9em;
 	padding-bottom: 4px;
 }
 .latest-articles__box_description {
-	font-size: .68em;
+	font-size: .91em;
 }
 
 .footer::after {
