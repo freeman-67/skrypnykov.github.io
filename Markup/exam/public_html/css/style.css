@@ -159,7 +159,6 @@ body{
 
 /* section slider */
 .slider {
-	-overflow: hidden;
 	position: relative;
 	height: 285px;
 }
@@ -433,7 +432,7 @@ body{
 .line-one {
 	position: relative;
 	margin: 20px 10px 10px;
-	border-top: 1px solid rgba(204,204,255,.5);
+	border-top: 2px solid rgba(204,204,255,.5);
 	font-family: 'Oxygen', sans-serif;
 	color: #666666;
 }
