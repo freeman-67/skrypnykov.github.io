@@ -9,14 +9,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" />
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
-	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$.pixlayout({clip: true, src: "contact.jpg", show:true, center:true, top:0, left:0, pervious: false});
-		}); 
-	</script>
-
 </head>
 <body>
 	<div class="container">
@@ -115,20 +107,32 @@
 			</div>
 			<div class="contact__box-form">
 				<h3 class="contact__box-form_title">Send us a Message</h3>
-				<form action="/" class="contact__form">
-					<p class="contact__form_description">Name:</p><input class="contact__form_input form__input_name" type="text" name="name" value="name" maxlength="25" /><br />
-					<p class="contact__form_description">Email:</p><input class="contact__form_input form__input_email" type="email" name="email" value="email" maxlength="25" /><br />
-					<p class="contact__form_description">Website:</p><input class="contact__form_input form__input_url" type="url" name="url" value="url" maxlength="25" /><br />
+				<form action="" class="contact__form">
+					
+					<p class="contact__form_description">Name:</p>
+					<input class="contact__form_input form__input_name" type="text" name="name" value="" maxlength="25" />
+					<img src="img/contact__name.png" class="form__input_name_icon" alt="icon">		
+					<br />
+					
+					<p class="contact__form_description">Email:</p>
+					<input class="contact__form_input form__input_email" type="email" name="email" value="" maxlength="25" />
+					<div class="form__input_email_hover">something wrong with your email</div>
+					<br />
+					
+					<p class="contact__form_description">Website:</p>
+					<input class="contact__form_input form__input_url" type="url" name="url" value="" maxlength="25" />
+					<br />
 					
 					<p class="contact__form_description">Your Message:</p>
-					<textarea class="contact__form_message" name="" id="" maxlength="685"></textarea><br />
+					<textarea class="contact__form_message" name="" id="" maxlength="685" placeholder="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cum sociis natoque penatibus et ma..."></textarea>
+					<br />
 
 					<input class="contact__form_input_submit" type="submit" value="Send Message">
 				</form>
 			</div>
 			<div class="contact__info">
 				<h4 class="contact__info_title">Contact information</h4>
-				<p class="contact__info_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium deserunt in officia, aperiam saepe dolorum, voluptas at sint dicta magnam a sunt adipisci dolore, aliquid ea mollitia? Ad, deserunt, perferendis.</p>
+				<p class="contact__info_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
 			</div>
 		</div>
 	<!-- end contact -->
