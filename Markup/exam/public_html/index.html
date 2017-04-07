@@ -8,14 +8,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" />
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
-	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="js/jquery.pixlayout.0.9.7.js"></script>
-	<script type="text/javascript">
-		$(function(){
-			$.pixlayout({clip: true, src: "_index2.png", show:true, center:true, top:0, left:0, pervious: false});
-		}); 
-	</script>
-
 </head>
 <body>
 	<div class="container">
@@ -117,7 +109,7 @@
 			</div>
 			<div class="slider__window_controls">
 				<div class="slider__window_controls_prev">
-					<a href="" class="slider__window_controls_link">
+					<a href="#" class="slider__window_controls_link">
 						<i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
 					</a>
 				</div>
@@ -126,7 +118,7 @@
 					<p class="slider__window_controls_depiction_text"><span>from 21K</span> - in Texas, USA</p>
 				</div>
 				<div class="slider__window_controls_next">
-					<a href="" class="slider__window_controls_link">
+					<a href="#" class="slider__window_controls_link">
 						<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
 					</a>
 				</div>
@@ -137,12 +129,21 @@
 			<p class="slider__description_text">Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas sed diam eget risus varius blandit sit.</p>
 		</div>
 		<div class="slider__view_button">
-			<a href="#" class="slider__view_button_link">
+			<a href="#window_popup" class="slider__view_button_link">
 				<h4 class="slider__view_button_title">Watch Trailer</h4>
 				<p class="slider__view_button_text">in 720p Quality</p>
 				<span class="slider__view_button_pointer sprite"></span>
 			</a>
 		</div>
+		<!-- window popup -->
+		<a href="#close" class="slider__preview_overlay" id="window_popup"></a>
+		<div class="slider__preview_popup">
+			<p class="slider__preview_popup_content">Content</p>
+			<a class="slider__preview_close" title="Закрыть" href="#close">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</a>
+		</div>
+		<!-- end window popup -->
 		<div class="slider__view_button_hover">
 			<span class="slider__view_button_img sprite"></span>
 			<p class="slider__view_button_hover_text">or just <a class="slider__view_button_hover_click" href="#">click here</a> and find out more</p>
@@ -228,8 +229,6 @@
 	<!-- content line2 -->
 	<div class="line-two">
 		<h2 class="line-two__title">Ta<span class="highlighted">bbb</span>s get your content in line</h2>
-
-		<div class="line-two__wrap"></div>
 			<div class="tabbed-area tabs-nav-fix">
                 <div class="tabbed-area__box-wrap">
 
@@ -266,7 +265,7 @@
 							</div>
 						</div>
                         
-                        <ul class="tabbed-area__box-wrap_tabs group">
+                        <ul class="tabbed-area__box-wrap_tabs tabbed-area__group">
                             <li class="tabbed-area__box-wrap_tabs_item tabs_active">
                             	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-one">Tabbb One</a>
                             </li>
@@ -281,7 +280,7 @@
                 	<div id="box-two" class="tabbed-area__box-wrap_box">
          				<h5 class="tabbed-area__box-wrap_box_title">The Content Ta<span class="highlighted">bbb</span> Two</h5>
 
-                	    <ul class="tabbed-area__box-wrap_tabs group">
+                	    <ul class="tabbed-area__box-wrap_tabs tabbed-area__group">
                             <li class="tabbed-area__box-wrap_tabs_item">
                             	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-one">Tabbb One</a>
                             </li>
@@ -296,7 +295,7 @@
                 	<div id="box-three" class="tabbed-area__box-wrap_box">
 						<h5 class="tabbed-area__box-wrap_box_title">The Content Ta<span class="highlighted">bbb</span> Three</h5>
 
-                	    <ul class="tabbed-area__box-wrap_tabs group">
+                	    <ul class="tabbed-area__box-wrap_tabs tabbed-area__group">
                             <li class="tabbed-area__box-wrap_tabs_item">
                             	<a class="tabbed-area__box-wrap_tabs_item_link" href="#box-one">Tabbb One</a>
                             </li>
