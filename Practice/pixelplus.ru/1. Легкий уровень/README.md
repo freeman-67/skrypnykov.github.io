@@ -1,8 +1,9 @@
 ### Тестовое задание на должность «WEB разработчик, HTML верстальщик» - 1 уровень сложности
 
 Ссылки на материалы:  
-PSD - <http://www.pixelplus.ru/test/lvl1/pixelplus.ru-test-v1.psd>  
-JPG - <http://www.pixelplus.ru/test/lvl1/pixelplus.ru-test-v1.jpg>  
+PSD - ![pixelplus.ru-test-v1.psd](pixelplus.ru-test-v1.psd)  
+JPG - ![pixelplus.ru-test-v1.jpg](pixelplus.ru-test-v1.jpg)  
+
 
 #### Тестовое задание содержит:
 
