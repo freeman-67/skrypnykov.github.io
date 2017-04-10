@@ -1,6 +1,6 @@
 ### Тестовое задание на должность «WEB разработчик, HTML верстальщик» в компании Пиксель Плюс - 1 уровень сложности
 
-Ссылки на материалы:
+Ссылки на материалы:  
 PSD - <http://www.pixelplus.ru/test/lvl1/pixelplus.ru-test-v1.psd>  
 JPG - <http://www.pixelplus.ru/test/lvl1/pixelplus.ru-test-v1.jpg>  
 
