@@ -1,8 +1,8 @@
 ### Тестовое задание на должность «WEB разработчик, HTML верстальщик» - 1 уровень сложности
 
 Ссылки на материалы:  
-PSD - ![pixelplus.ru-test-v1.psd](pixelplus.ru-test-v1.psd)  
-JPG - ![pixelplus.ru-test-v1.jpg](pixelplus.ru-test-v1.jpg)  
+PSD - [pixelplus.ru-test-v1.psd](pixelplus.ru-test-v1.psd)  
+JPG - [pixelplus.ru-test-v1.jpg](pixelplus.ru-test-v1.jpg)
 
 
 #### Тестовое задание содержит:
@@ -37,3 +37,5 @@ JPG - ![pixelplus.ru-test-v1.jpg](pixelplus.ru-test-v1.jpg)
 8. Блок 7 - должен быть прижат к низу области left.
  
 9. Текстовое содержимое блоков 4, 10, 11 должно быть выполнено в виде списков. При этом особое внимание будет уделяться поведению блоков при добавлении/удалении/изменении пунктов списка.
+
+![pixelplus.ru-test-v1.jpg](pixelplus.ru-test-v1.jpg)  
