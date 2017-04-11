@@ -6,3 +6,7 @@
 .container {
 	width: 1000px;
 }
+
+.contact__phone {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
