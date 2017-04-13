@@ -2,11 +2,154 @@
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	line-height: 22px;
-}
-.container {
-	width: 1000px;
+	margin: 0;
+	padding: 0;
 }
 
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #dcdcdc;
+}
+
+.logo {
+	display: inline-block;
+	margin: 65px 0;
+}
+.contact {
+	float: right;
+	margin: 45px 0;
+}
 .contact__phone {
 	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 40pt;
+	color: #767676;
+	line-height: 1.2;
+}
+.menu {
+	background-color: #777777;
+	color: white;
+}
+.nav {
+	list-style-type: none;
+}
+.main-menu {
+	text-align: center;
+	padding: 10px;
+}
+.main-menu .nav__item {
+	display: inline-block;
+	border-left: 2px solid white;
+}
+.main-menu .nav__item:first-child {
+	border-left: none;
+}
+
+.nav__link {
+	color: white;
+	text-decoration: none;
+}
+.main-menu .nav__link {
+	color: white;
+	text-decoration: none;
+	font-size: 20pt;
+	padding: 0 20px;
+}
+.main-menu .nav__link_active,
+.main-menu .nav__link:hover { 
+	text-decoration: underline;
+}
+
+.slider__wrap {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.content {
+	height: 780px;
+}
+
+.sidebar-news {
+	display: inline-block;
+	margin-top: 25px;
+	width: 350px;
+	height: 560px;
+	float: left;
+	background-color: #777777;
+	color: white;
+}
+
+.sidebar-news__title {
+	padding: 25px 35px;
+	font-size: 30px;
+}
+.news-item {
+	padding: 0 35px;
+	margin-bottom: 30px;
+}
+.news-item__date {
+	font-style: italic;
+}
+.news-item__archive {
+	float: right;
+	margin-right: 35px;
+	color: white;
+}
+
+
+.article {
+	padding-top: 25px;
+	padding-left: 400px;
+	color: #767676;
+}
+
+.article__title {
+	padding: 20px 0;
+	font-size: 40px;
+	font-weight: 400;
+}
+.article__text {
+	font-size: 14px;
+	padding-bottom: 20px;
+
+}
+
+.footer {
+	background-color: #777777;
+	height: 220px;
+	color: white;
+}
+.footer__copy {
+	float: left;
+	margin-top: 50px;
+}
+
+.footer__menu{
+	display: inline-block;
+	padding-top: 50px;
+	margin-left: 150px;
+}
+.footer__logo {
+	float: right;
+	margin-top: 50px;
+	color: white;
+	width: 215px;
+	text-align: left;
+}
+.footer__logo_size_s {
+	float: left;
+}
+
+.footer__company {
+	display: inline-block;
+	vertical-align: top;
+	width: 165px;
+	-padding-left: 10px;
+	-margin-top: -5px;
+}
+.footer__company_link {
+	
 }

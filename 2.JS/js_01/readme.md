@@ -50,3 +50,12 @@
 * спецификация ES, HTML, CSS, DOM  
 * caniuse  
 * литература  
+
+[Mozilla Developer Network](https://developer.mozilla.org/ru/docs/Web/JavaScript)  
+[MSDN](https://msdn.microsoft.com/ru-ru/default.aspx)  
+[Safari Developer Library](https://developer.apple.com/safari/resources/)  
+
+[help.dottoro.com](http://help.dottoro.com/)  
+[javascript.ru](http://es5.javascript.ru/)  
+[www.quirksmode.org](http://www.quirksmode.org/)  
+[caniuse.com](http://caniuse.com/)  
