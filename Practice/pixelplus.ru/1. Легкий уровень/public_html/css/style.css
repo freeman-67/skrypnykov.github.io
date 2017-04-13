@@ -193,13 +193,13 @@ body {
 	width: 305px;
 	height: 180px;
 }
-.footer__right-block--upper {
+.footer__right-block_upper {
 	background-color: rgba(0,0,0,.35);
 	width: 305px;
 	height: 75px;
 	margin-bottom: 30px;
 }
-.footer__right-block--lower {
+.footer__right-block_lower {
 	background-color: rgba(0,0,0,.35);
 	width: 305px;
 	height: 75px;
