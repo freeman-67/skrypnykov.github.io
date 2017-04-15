@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
 
 </head>
 <body>
@@ -18,6 +19,27 @@
 			<div class="contact">
 				<p class="contact__phone">+7(499) 777-77-77</p>
 				<p class="contact__phone">+7(499) 777-77-77</p>
+				<a href="#window_popup" class="contact__feedback_link">Обратная связь</a>
+				<!-- window popup -->
+				<a href="#close" class="feedback__overlay" id="window_popup"></a>
+				<div class="feedback__popup">
+					<form class="feedback-form" name="feedback" method="post" action="#">
+						<h3 class="feedback-form__title">Обратная связь</h3>						
+						<p class="feedback-form__input_name">Ваше имя *</p>
+						<input class="feedback-form__input" type="text" name="name" id="name" placeholder="" size="25" maxlength="40" />						
+						<p class="feedback-form__input_name">Телефон *</p>
+						<input class="feedback-form__input" type="tel" name="phone" id="phone" placeholder="" size="12" maxlength="14" />						
+						<p class="feedback-form__input_name">Email *</p>
+						<input class="feedback-form__input feedback-form__input_error" type="email" name="email" id="email" placeholder="Поле обязательно для заполнения" size="25" maxlength="40" />	
+						<p class="feedback-form__input_name">Сообщение</p>
+						<textarea class="feedback-form__textarea" name="message" id="message" placeholder="" cols="30" rows="10" maxlength="205"></textarea><br />	
+						<input class="feedback-form__button_submit" type="submit" name="enter" value="Отправить">
+					</form>					
+					<a class="feedback__button_close" title="Закрыть" href="#close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</a>
+				</div>
+				<!-- end window popup -->
 			</div>
 		</div>
 	</div>
@@ -38,44 +60,123 @@
 	<!-- slider -->
 	<div class="slider">
 		<div class="slider__wrap">
-			<img src="img/slider_img.png" alt="slider" class="slider_image">
+			<img src="img/slider_img1.jpg" alt="slider" class="slider__image_1">
+			<img src="img/slider_img2.jpg" alt="slider" class="slider__image_2">
+		</div>	
+	</div>
+	
+	<div class="container">
+		<div class="slider__control">
+			<div class="control__button_prev">
+				<i class="fa fa-angle-left" aria-hidden="true"></i>
+			</div>
+			<div class="control__button_next">
+				<i class="fa fa-angle-right" aria-hidden="true"></i>
+			</div>
 		</div>
 	</div>
 	<!-- end slider -->
 	<!-- content -->
 	<div class="content">
 		<div class="container">
-			<div class="sidebar-news">
-				<h3 class="sidebar-news__title">Новости</h3>
-				<div class="news-item">
-					<p class="news-item__date">14 сентября 2013 г.</p>
-					<h4 class="news-item__title"><a class="news-item__link" href="">Редизайн веб-сайта архитектурного бюро.</a></h4>
-				</div>
-				<div class="news-item">
-					<p class="news-item__date">14 сентября 2013 г.</p>
-					<h4 class="news-item__title"><a class="news-item__link" href="">Раскрутка интернет-магазина декоративных стикеров и виниловых наклеек.</a></h4>
-				</div>
-				<div class="news-item">
-					<p class="news-item__date">14 сентября 2013 г.</p>
-					<h4 class="news-item__title"><a class="news-item__link" href="">SEO-продвижение сайта поставщика дизель генераторов.</a></h4>
-				</div>
-				<div class="news-item">
-					<p class="news-item__date">14 сентября 2013 г.</p>
-					<h4 class="news-item__title"><a class="news-item__link" href="">Поисковое продвижение веб-сайта поставщика гидрооборудования.</a></h4>
-				</div>
-				<a href="" class="news-item__archive">Архив новостей</a>
+			<div class="content__catalog_links">
+				<ul class="content__catalog_list">
+					<li class="catalog__item"><a class="catalog__link" href="">Главная</a></li>
+					<li class="catalog__item"><a class="catalog__link" href="">Каталог</a></li>
+					<li class="catalog__item"><a class="catalog__link catalog__link_active" href="">Бытовая техника</a></li>
+				</ul>
 			</div>
-			<div class="article">
-				<h2 class="article__title">Компания «Пиксель Плюс»</h2>
-				<p class="article__text">
-					Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.
-				</p>
-				<p class="article__text">
-					Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.
-				</p>
-				<p class="article__text">
-					Наша компания является золотым сертифицированным партнёром «1С-Битрикс» (сертификат № 33939 с 2007 по 2013), что ещё раз подтверждает квалификацию наших сотрудников. В январе 2013 мы стали лидерами продаж продуктов «1С-Битрикс» и вошли в число лучших разработчиков сайтов России. Все специалисты занимающиеся изготовлением сайтов проходят обязательную сертификацию «1С-Битрикс» в течении первых 6 месяцев работы в компании, после чего продолжают непрерывно поддерживать и развивать свои профессиональные навыки.
-				</p>
+			<div class="sidebar-left__product">
+				<ul class="poduct-list">
+					<li class="product-list__item">
+						<a href="" class="product-list__link">Автомобили</a>
+					</li>
+					<li class="product-list__item">
+						<a href="" class="product-list__link product-list__link_active">Бытовая техника</a></li>
+						<ul class="product-sublist">
+							<li class="product-sublist__item">
+								<a class="product-sublist__link" href="">Микроволновки</a>
+							</li>
+							<li class="product-sublist__item">
+								<a class="product-sublist__link" href="">Холодильники</a>
+							</li>
+							<li class="product-sublist__item">
+								<a class="product-sublist__link" href="">Посудомоечные машины</a>
+							</li>
+							<li class="product-sublist__item">
+								<a class="product-sublist__link product-sublist__link_active" href="">Чайники</a>
+							</li>
+						</ul>
+					<li class="product-list__item">
+						<a href="" class="product-list__link">Мобильная техника</a>
+					</li>
+					<li class="product-list__item">
+						<a href="" class="product-list__link">Компьютеры</a>
+					</li>
+					<li class="product-list__item">
+						<a href="" class="product-list__link">Одежда</a>
+					</li>
+					<li class="product-list__item">
+						<a href="" class="product-list__link">Недвижимость</a>
+					</li>
+				</ul>
+				<div class="sidebar-left__prices">
+					<img class="prices__icon" src="img/excel.png" alt="excel" />
+					<a href="#" class="prices__link">Прайс-лист</a>
+				</div>
+			</div>
+			<div class="product">
+				<div class="product__box">
+					<img src="img/photo_product.jpg" alt="photo product" class="product__image" />
+					<p class="product__description">Самый клевый чайник, который надо купить!</p>
+					<span class="product__price">1 900 р.</span>
+					<img src="img/kettle.png" alt="icon" class="product__icon" />
+				</div>
+				<div class="product__box">
+					<img src="img/photo_product.jpg" alt="photo product" class="product__image" />
+					<p class="product__description">Самый клевый чайник, который надо купить!</p>
+					<span class="product__price">1 900 р.</span>
+					<img src="img/kettle.png" alt="icon" class="product__icon" />
+				</div>
+				<div class="product__box">
+					<img src="img/photo_product.jpg" alt="photo product" class="product__image" />
+					<p class="product__description">Самый клевый чайник, который надо купить!</p>
+					<span class="product__price">1 900 р.</span>
+					<img src="img/kettle.png" alt="icon" class="product__icon" />
+				</div>
+				<div class="product__box">
+					<img src="img/photo_product.jpg" alt="photo product" class="product__image" />
+					<p class="product__description">Самый клевый чайник, который надо купить!</p>
+					<span class="product__price">1 900 р.</span>
+					<img src="img/kettle.png" alt="icon" class="product__icon" />
+				</div>
+				<div class="product__box">
+					<img src="img/photo_product.jpg" alt="photo product" class="product__image" />
+					<p class="product__description">Самый клевый чайник, который надо купить!</p>
+					<span class="product__price">1 900 р.</span>
+					<img src="img/kettle.png" alt="icon" class="product__icon" />
+				</div>
+			</div>
+			<div class="content-pager">
+				<ul class="nav-pager">
+					<li class="nav-pager__item"><a href="#" class="nav-pager__link">1</a></li>
+					<li class="nav-pager__item"><a href="#" class="nav-pager__link">2</a></li>
+					<li class="nav-pager__item"><a href="#" class="nav-pager__link nav-pager__link_active">3</a></li>
+					<li class="nav-pager__item"><a href="#" class="nav-pager__link">4</a></li>
+					<li class="nav-pager__item"><a href="#" class="nav-pager__link">5</a></li>
+					<li class="nav-pager__item"><a href="#" class="nav-pager__link">6</a></li>
+					<li class="nav-pager__item"><a href="#" class="nav-pager__link">7</a></li>
+				</ul>
+			</div>
+			<div class="company-description">
+				<div class="compamy-description__article">
+					<div class="article__column_left">
+						Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души. 
+					</div>
+					<div class="article__column_right">
+						Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
