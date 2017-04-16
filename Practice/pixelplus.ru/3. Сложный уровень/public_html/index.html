@@ -7,7 +7,6 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
-
 </head>
 <body>
 	<!-- header -->
@@ -60,18 +59,21 @@
 	<!-- slider -->
 	<div class="slider">
 		<div class="slider__wrap">
-			<img src="img/slider_img1.jpg" alt="slider" class="slider__image_1">
-			<img src="img/slider_img2.jpg" alt="slider" class="slider__image_2">
-		</div>	
-	</div>
-	
-	<div class="container">
-		<div class="slider__control">
-			<div class="control__button_prev">
-				<i class="fa fa-angle-left" aria-hidden="true"></i>
+			<span id="slider__image_1"></span>
+        	<span id="slider__image_2"></span>
+			<div class="image__holder">
+				<img src="img/slider_img1.jpg" alt="slider image" class="slider__image">
+				<img src="img/slider_img2.jpg" alt="slider image" class="slider__image">
 			</div>
-			<div class="control__button_next">
-				<i class="fa fa-angle-right" aria-hidden="true"></i>
+			<div class="container">
+				<div class="button__holder">
+					<a class="button__change_prev" href="#slider__image_1">
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+					</a>
+					<a class="button__change_next" href="#slider__image_2">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
