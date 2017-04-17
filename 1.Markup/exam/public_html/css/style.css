@@ -37,7 +37,7 @@ body{
 }
 
 /* header menu */
-.header__wrap {
+.header__main-menu_wrap {
 	float: right;
 	margin-top: 25px;
 	margin-right: 23px;
