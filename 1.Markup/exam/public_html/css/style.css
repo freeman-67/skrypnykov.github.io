@@ -201,10 +201,10 @@ body{
 .slider__controls {
 	position: absolute;
 	top: 138px;
-	left: 5px;
+	left: 0;
 	display: inline-block;
+	width: 292px;
 	color: white;
-	cursor: pointer;
 	visibility: hidden;
 	-webkit-transition: visibility .5s linear 0.5s;
    	-moz-transition: visibility .5s linear 0.5s;
@@ -219,6 +219,7 @@ body{
 	background-color: rgba(0,0,0,.6);
 	padding: 5px 40px 10px 7px;
 	border-radius: 3px;
+	text-align: left;
 }
 .controls__depiction_title {
 	font-size: .77em;
@@ -230,13 +231,7 @@ body{
 .controls__depiction_text span {
 	color: #ffcc33;
 } 
-.controls__button_prev {
-	display: inline-block;
-	background-color: rgba(0,0,0,.6);
-	padding: 0 7px;
-	border-radius: 3px;
-	font-size: 24px;
-}
+.controls__button_prev,
 .controls__button_next {
 	display: inline-block;
 	background-color: rgba(0,0,0,.6);
