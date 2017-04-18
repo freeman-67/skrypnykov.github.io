@@ -7,7 +7,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" />
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-
 </head>
 <body>
 	<div class="container">
@@ -21,35 +20,35 @@
 				<!-- main-menu -->
 				<ul class="main-menu">
 					<li class="main-menu__item">
-						<a class="main-menu__link" href="#">Home</a>
+						<a class="main-menu__link" href="">Home</a>
 					</li>
 					<li class="main-menu__item">
-						<a class="main-menu__link" href="#">About</a>
+						<a class="main-menu__link" href="">About</a>
 					</li>
 					<li class="main-menu__item">
-						<a class="main-menu__link" href="#">Products</a>
+						<a class="main-menu__link" href="">Products</a>
 						<!-- submenu -->
 						<ul class="submenu">
 							<li class="submenu__item">
-								<a class="submenu__link" href="#">
+								<a class="submenu__link" href="">
 									<h4 class="submenu__link_title">All Products</h4>
 									<p class="submenu__link_text">this text is complementary</p>
 								</a>
 							</li>
 							<li class="submenu__item">
-								<a class="submenu__link" href="#">
+								<a class="submenu__link" href="">
 									<h4 class="submenu__link_title">Services</h4>
 									<p class="submenu__link_text">this text is complementary</p>
 								</a>
 							</li>
 							<li class="submenu__item">
-								<a class="submenu__link" href="#">
+								<a class="submenu__link" href="">
 									<h4 class="submenu__link_title">Solutions</h4>
 									<p class="submenu__link_text">this text is complementary</p>
 								</a>
 							</li>
 							<li class="submenu__item">
-								<a class="submenu__link" href="#">
+								<a class="submenu__link" href="">
 									<h4 class="submenu__link_title">How To Buy</h4>
 									<p class="submenu__link_text">this text is complementary</p>
 								</a>
@@ -58,29 +57,29 @@
 						<!-- end submenu -->
 					</li>
 					<li class="main-menu__item">
-						<a class="main-menu__link" href="#">Blog</a>
+						<a class="main-menu__link" href="">Blog</a>
 						<!-- submenu -->
 						<ul class="submenu">
 							<li class="submenu__item">
-								<a class="submenu__link" href="#">
+								<a class="submenu__link" href="">
 									<h4 class="submenu__link_title">Articles</h4>
 									<p class="submenu__link_text">this text is complementary</p>
 								</a>
 							</li>
 							<li class="submenu__item">
-								<a class="submenu__link" href="#">
+								<a class="submenu__link" href="">
 									<h4 class="submenu__link_title">Writers</h4>
 									<p class="submenu__link_text">this text is complementary</p>
 								</a>
 							</li>
 							<li class="submenu__item">
-								<a class="submenu__link" href="#">
+								<a class="submenu__link" href="">
 									<h4 class="submenu__link_title">Top 50</h4>
 									<p class="submenu__link_text">this text is complementary</p>
 								</a>
 							</li>
 							<li class="submenu__item">
-								<a class="submenu__link" href="#">
+								<a class="submenu__link" href="">
 									<h4 class="submenu__link_title">The Hall of Fame</h4>
 									<p class="submenu__link_text">this text is complementary</p>
 								</a>
@@ -89,7 +88,7 @@
 						<!-- end submenu -->	
 					</li>	
 					<li class="main-menu__item">
-						<a class="main-menu__link" href="#">Help</a>
+						<a class="main-menu__link" href="">Help</a>
 					</li>
 				</ul>
 				<!-- end main-menu -->
@@ -101,24 +100,26 @@
 	<!-- end header -->
 	<!-- slider  -->
 	<div class="slider">
-		<div class="slider__window">
-			<img src="img/slider__place.png" alt="view" class="slider__window_place"/>
-			<div class="slider__window_show">
-				<img src="img/slider__pic1.jpg" alt="" class="slider__view_pic1" />
-				<img src="img/slider__pic2.jpg" alt="" class="slider__view_pic2" />
+		<img src="img/slider__place.png" alt="view" class="slider__place" />
+		<div class="slider__holder">
+			<span id="slider__image1"></span>
+        	<span id="slider__image2"></span>
+			<div class="image__holder">
+				<img src="img/slider__pic1.jpg" alt="" class="slider__image" />
+				<img src="img/slider__pic2.jpg" alt="" class="slider__image" />
 			</div>
-			<div class="slider__window_controls">
-				<div class="slider__window_controls_prev">
-					<a href="#" class="slider__window_controls_link">
+			<div class="slider__controls">
+				<div class="controls__button_prev">
+					<a href="#slider__image1" class="controls__link">
 						<i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
 					</a>
 				</div>
-				<div class="slider__window_controls_depiction">
-					<h5 class="slider__window_controls_depiction_title">Great Lakehouse with Land</h5>
-					<p class="slider__window_controls_depiction_text"><span>from 21K</span> - in Texas, USA</p>
+				<div class="controls__depiction">
+					<h5 class="controls__depiction_title">Great Lakehouse with Land</h5>
+					<p class="controls__depiction_text"><span>from 21K</span> - in Texas, USA</p>
 				</div>
-				<div class="slider__window_controls_next">
-					<a href="#" class="slider__window_controls_link">
+				<div class="controls__button_next">
+					<a href="#slider__image2" class="controls__link">
 						<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
 					</a>
 				</div>
@@ -138,7 +139,7 @@
 		<!-- window popup -->
 		<a href="#close" class="slider__preview_overlay" id="window_popup"></a>
 		<div class="slider__preview_popup">
-			<p class="slider__preview_content">Content</p>
+			<div class="slider__preview_content">Content</div>
 			<a class="slider__preview_close" title="Закрыть" href="#close">
 				<i class="fa fa-times" aria-hidden="true"></i>
 			</a>
@@ -146,7 +147,7 @@
 		<!-- end window popup -->
 		<div class="view-button__hover">
 			<span class="view-button__img sprite"></span>
-			<p class="view-button__hover_text">or just <a class="view-button__hover_click" href="#">click here</a> and find out more</p>
+			<p class="view-button__hover_text">or just <a class="view-button__hover_click" href="">click here</a> and find out more</p>
 		</div>
 	</div>
 	<!-- end slider -->
@@ -362,19 +363,19 @@
 		</div>
 		<div class="latest-articles">
 			<h3 class="latest-articles__title">LATEST ARTICLES</h3>
-			<a href="#" class="latest-articles__link">
+			<a href="" class="latest-articles__link">
 				<div class="latest-articles__box">
 					<h4 class="latest-articles__box_title">Fusce Etiam Bibendum</h4>
 					<p class="latest-articles__box_description">Sed posuere consectetur est at lobortis.</p>
 				</div>
 			</a>
-			<a href="#" class="latest-articles__link">
+			<a href="" class="latest-articles__link">
 				<div class="latest-articles__box">
 					<h4 class="latest-articles__box_title">Fusce Parturient</h4>
 					<p class="latest-articles__box_description">Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
 				</div>
 			</a>
-			<a href="#" class="latest-articles__link">
+			<a href="" class="latest-articles__link">
 				<div class="latest-articles__box">
 					<h4 class="latest-articles__box_title">Magna Parturient Aenean</h4>
 					<p class="latest-articles__box_description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
