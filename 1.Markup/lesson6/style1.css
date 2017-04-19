@@ -17,7 +17,7 @@ body{
 	text-align: center;
 	font-weight: 500;
 }
-.price_list{
+.price-list{
 	width: 850px;
 	position: relative;
 	top: 0;
@@ -26,9 +26,9 @@ body{
 	bottom: 0;
 	margin: auto;
 }
-.price_list_active,
-.price_list_left,
-.price_list_right{
+.price-list_active,
+.price-list_left,
+.price-list_right{
 	position: relative;
 	display: inline-block;
 	width: 274px;
@@ -36,25 +36,25 @@ body{
  	border-radius: 5px;
  	background-color: white;  
 }
-.price_list_active{
+.price-list_active{
 	border: 4px solid #EE822A; 
 	box-shadow: 0 0 10px 5px #CBE2EF;
 	z-index: 2;
 }
-.price_list_left,
-.price_list_right{
+.price-list_left,
+.price-list_right{
 	border: 1px solid #cccccc;
 	z-index: 1;
 }
-.price_list_left{
+.price-list_left{
 	left: 10px;
 }
-.price_list_right{
+.price-list_right{
 	right: 10px;
 }
-.price_list_active h3,
-.price_list_left h3,
-.price_list_right h3{
+.price-list_active h3,
+.price-list_left h3,
+.price-list_right h3{
 	font-size: 1.3em;
 	font-weight: 400;
 	margin: 16px 0;
@@ -63,18 +63,18 @@ div.header h2{
 	font-weight: 500;
 	color: white;
 }
-.price_list_active div.header{
+.price-list_active div.header{
 	padding: 5px 0;
 	background-color: #EE822A;
 }
-.price_list_left div.header,
-.price_list_right div.header{
+.price-list_left div.header,
+.price-list_right div.header{
 	padding: 1px 0;
 }
-.price_list_left div.header{
+.price-list_left div.header{
 	background-color: #37c2d3;
 }
-.price_list_right div.header{
+.price-list_right div.header{
 	background-color: #1cb79a;
 }
 .price{
@@ -133,13 +133,13 @@ input{
     	border-radius: 5px;
     	outline: 0;
 }
-.price_list_active input{
+.price-list_active input{
 	background: #EE822A;
 	border-bottom: 3px solid #B3570D;
 	margin: 20px auto 30px;
 }
-.price_list_left input,
-.price_list_right input{
+.price-list_left input,
+.price-list_right input{
 	background: #336699;
 	border-bottom: 3px solid #003366;
 	margin: 20px auto;
@@ -149,10 +149,10 @@ input:hover, input:focus{
 	border-color: transparent;
 	box-shadow: 1px 1px 9px 0 #C2C2C2;
 }
-.price_list_active input:hover, .price_list_active input:focus{ 
+.price-list_active input:hover, .price-list_active input:focus{ 
 	color: #B3570D;
 }
-.price_list_left input:hover, .price_list_left input:focus,
-.price_list_right input:hover, .price_list_right input:focus{ 
+.price-list_left input:hover, .price-list_left input:focus,
+.price-list_right input:hover, .price-list_right input:focus{ 
 	color: #003366;
 }

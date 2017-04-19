@@ -181,79 +181,79 @@ body {
 	font-size: 1.8em;
 	font-weight: 500;
 }
-.pricing__price-list {
+.price-list__wrap {
 	padding-bottom: 90px;
 }
-.pricing__price-list_active,
-.pricing__price-list_left,
-.pricing__price-list_right {
+.price-list__active,
+.price-list__left,
+.price-list__right {
 	position: relative;
 	display: inline-block;
 	width: 288px;
     border-radius: 5px;
  	background-color: white;
 }
-.pricing__price-list_active {
+.price-list__active {
 	border: 4px solid #EE822A; 
 	box-shadow: 0 0 10px 5px #CBE2EF;
 	z-index: 2;
 }
-.pricing__price-list_left,
-.pricing__price-list_right {
+.price-list__left,
+.price-list__right {
 	border: 1px solid #cccccc;
 	z-index: 1;
 }
-.pricing__price-list_left {
+.price-list__left {
 	left: 5px;
 }
-.pricing__price-list_right {
+.price-list__right {
 	right: 5px;
 }
-.pricing__price-list_active h3,
-.pricing__price-list_left h3,
-.pricing__price-list_right h3 {
+.price-list__active h3,
+.price-list__left h3,
+.price-list__right h3 {
 	font-size: 1.5em;
 	font-family: 'FuturaBT Book';
 	margin: 20px 0 10px;
 }
-.pricing__price-list_header h2 {
+.price-list__header h2 {
 	font-family: 'FuturaBT Demi';
 	color: white;
 }
-.pricing__price-list_active .pricing__price-list_header {
+.price-list__active .price-list__header {
 	padding: 18px 0;
 	background-color: #EE822A;
 }
-.pricing__price-list_header {
+.price-list__header {
 	padding: 14px 0;
 }
-.pricing__price-list_left .pricing__price-list_header {
+.price-list__left .price-list__header {
 	background-color: #37c2d3;
 }
-.pricing__price-list_right .pricing__price-list_header {
+.price-list__right .price-list__header {
 	background-color: #1cb79a;
 }
-.pricing__price-list_price {
+.price-list__price {
 	font-family: 'FuturaBT Bold';
 	color: #364A5B;
 }
-.pricing__price-list_numeral { 
+.price-list__numeral { 
 	font-size: 4em;
  }
-.pricing__price-list_currency,
-.pricing__price-list_time {
+.price-list__currency,
+.price-list__time {
 	position: relative;
 }
-.pricing__price-list_currency {
+.price-list__currency {
 	top: -40px;
 	font-size: 1.2em;
 }
-.pricing__price-list_time {
+.price-list__time {
 	top: 8px;
 	left: -1px;
 	text-transform: none;
 }
-.pricing__price-list_list {
+.price-list__list {
 	width: 88%;
 	margin: auto;
 	text-align: left;
@@ -262,21 +262,21 @@ body {
     font-size: 0.9em;
     color: #898D95;
 }
-.pricing__price-list_list li {
+.price-list__list li {
 	margin-bottom: 1px; 
 	padding: 8px 30px;
 }
-.pricing__price-list_list li:nth-of-type(odd) {
+.price-list__list li:nth-of-type(odd) {
 	background: #EDF5FD ;
 }
-.pricing__price-list_list li:nth-of-type(even) {
+.price-list__list li:nth-of-type(even) {
 	background: #F5F5F6;
 }
-.pricing__price-list_list li::before {
-    content: url("../img/pricing__price-list_marker.png");
+.price-list__list li::before {
+    content: url("../img/price-list_marker.png");
     padding-right: 15px;
 }
-.pricing__button {
+.price-list__button {
 	width: 86%;
 	padding: 10px;
 	font-size: 0.9em;
@@ -286,29 +286,29 @@ body {
     border-radius: 5px;
     color: white;
 }
-.pricing__price-list_active .pricing__button {
+.price-list__active .price-list__button {
 	background: #EE822A;
 	border-bottom: 3px solid #B3570D;
 	margin: 10px auto 30px;
 }
-.pricing__price-list_left .pricing__button,
-.pricing__price-list_right .pricing__button {
+.price-list__left .price-list__button,
+.price-list__right .price-list__button {
 	background: #336699;
 	border-bottom: 3px solid #003366;
 	margin: 10px auto 20px;
 }
-.pricing__button:hover, .pricing__button:focus {
+.price-list__button:hover, .price-list__button:focus {
 	border-color: transparent;
 	box-shadow: 1px 1px 9px 0 #C2C2C2;
 }
-.pricing__price-list_active .pricing__button:hover, 
-.pricing__price-list_active .pricing__button:focus { 
+.price-list__active .price-list__button:hover, 
+.price-list__active .price-list__button:focus { 
 	color: #B3570D;
 }
-.pricing__price-list_left .pricing__button:hover, 
-.pricing__price-list_left .pricing__button:focus,
-.pricing__price-list_right .pricing__button:hover, 
-.pricing__price-list_right .pricing__button:focus { 
+.price-list__left .price-list__button:hover, 
+.price-list__left .price-list__button:focus,
+.price-list__right .price-list__button:hover, 
+.price-list__right .price-list__button:focus { 
 	color: #003366;
 }
 
@@ -336,12 +336,12 @@ body {
 	vertical-align: top;
 	margin: 0 25px 80px 0;
 }
-.testimonials__box img {
+.testimonials__image {
 	float: left;
 	width: 100px;
 	height: 100px;
 }
-.testimonials__box_say {
+.testimonials__say {
 	float: left;
 	width: 360px;
 	min-height: 100px;
@@ -350,7 +350,7 @@ body {
 	overflow: hidden;
 	margin-left: 25px;
 }
-.testimonials__box--arr {
+.testimonials__say_arr {
 	width: 0;
 	height: 0;
 	border: 15px solid;
@@ -361,7 +361,7 @@ body {
 	left: 96px;
 	margin: auto;
 }
-.testimonials__box_header {
+.testimonials__say_header {
 	font-style: italic;
 	font-weight: 600;
 	overflow: auto;
@@ -369,18 +369,18 @@ body {
 	border-bottom: 2px dotted #ccc;
 	color: #3271A9;	
 }
-.testimonials__box_name {
+.testimonials__say_name {
 	float: left;
 	margin: 10px 0;
 }
-.testimonials__box_name::before {
+.testimonials__say_name::before {
 	content: "- ";
 }
-.testimonials__box_customer {
+.testimonials__say_customer {
    	float: right;
    	margin: 10px 10px;
 }
-.testimonials__box_text {
+.testimonials__say_text {
 	margin: 10px 16px;
 	font-size: 13px;
 	line-height: 1.6;
