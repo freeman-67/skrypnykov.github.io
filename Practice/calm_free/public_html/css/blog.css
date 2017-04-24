@@ -404,12 +404,11 @@
 	font-family: 'Titillium Web', sans-serif;
 }
 .sidebar__widget_tabs {
-	margin-top: 40px;
-	margin-bottom: 50px;
+	margin-top: 35px;
 	position: relative;
 }
 .tabs { 
-	min-height: 300px; 
+	min-height: 330px; 
 	position: relative;
 	width: 100%; 
 }
