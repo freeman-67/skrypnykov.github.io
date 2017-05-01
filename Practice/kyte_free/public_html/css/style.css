@@ -456,7 +456,10 @@
 	border: none;
 	color: #fff;
 }
-
+.contact__form_message:focus,
+.contact__form_input:focus {
+	outline-color: rgba(192,192,192,.5);
+}	
 .contact__form_input::-webkit-input-placeholder {color:#a1a1a1;text-transform: uppercase;}
 .contact__form_input::-moz-placeholder          {color:#a1a1a1;text-transform: uppercase;}
 .contact__form_input:-moz-placeholder           {color:#a1a1a1;text-transform: uppercase;}
@@ -469,6 +472,7 @@
 
 .contact__form_message {
 	height: 210px;
+	line-height: 1.5;
 }
 .contact__form_button {
 	width: 140px;
