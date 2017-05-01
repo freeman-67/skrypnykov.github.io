@@ -473,6 +473,7 @@
 .contact__form_message {
 	height: 210px;
 	line-height: 1.5;
+	overflow: hidden;
 }
 .contact__form_button {
 	width: 140px;
