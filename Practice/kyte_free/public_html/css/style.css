@@ -5,6 +5,9 @@
 	font-weight: 400;
 	font-size: 13px;
 }
+body {
+	height: 100%;
+}
 
 .container {
 	max-width: 1170px;
@@ -69,6 +72,15 @@
 }
 .slider__images {
 	overflow: hidden;
+}
+.slider__images_wrap {
+	width: 1600px;
+	margin: 0 auto;
+}
+.slider__images_pic {
+	display: block;
+	max-width: 100%;
+ 	height: auto;
 }
 
 .slider__content{
