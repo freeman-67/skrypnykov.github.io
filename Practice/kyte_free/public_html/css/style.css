@@ -559,3 +559,10 @@ body {
 .social__button_link:hover {
 	color: #3B3B3B;
 }
+
+
+@media \0screen {
+  img {
+    width: auto;
+  }
+}
