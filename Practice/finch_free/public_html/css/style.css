@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+.header__main-menu {
+	background-color: #f2f2f2;
+	color: #4e4e4e;
+}
+
+.header__main-menu_link_active {
+	color: #57a4a4;
+}
