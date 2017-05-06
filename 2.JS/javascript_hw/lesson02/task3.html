@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson2, task3</title>
+</head>
+<body>
+	<script>
+		var login = prompt('Введите логин:', '');
+		var passwd;
+
+		if (login == 'admin') {
+			passwd = prompt('Введите пароль:', '');
+
+			if (passwd == 'password') {
+            	alert('Добро пожаловать!');
+        	}
+        	else {
+            	alert('Неверный пароль!');
+        	}
+		}
+		else if (login == undefined) {
+			alert('ОТМЕНА');
+		}
+		else {
+        	alert('В ДОСТУПЕ ОТКАЗАНО !!!');
+    	}
+	</script>
+</body>
+</html>
